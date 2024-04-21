@@ -9,6 +9,9 @@ a:link {
 a:visited {
 	color: #2a0000;
 }
+span {
+	color: #FFFFFF;
+}
 .container {
 	display: grid;
 	grid-template-columns: 1fr 1.5fr 0.5fr;
@@ -19,6 +22,10 @@ a:visited {
 		"content content sidebar"
 		"footer footer footer";
 }
+.nav-header { 
+	text-align: center;
+	font-size: 18pt;
+}
 .footer { 
 	grid-area: footer;
 	text-align: center;
@@ -27,7 +34,10 @@ a:visited {
 	padding: 10px; 
 	padding-top: 50px;
 }
-.sidebar { grid-area: sidebar; }
+.sidebar { 
+	grid-area: sidebar;
+	padding-top: 20px;
+}
 .logo { grid-area: logo; }
 .navbar { grid-area: navbar; }
 .content { 
