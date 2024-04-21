@@ -1,0 +1,27 @@
+<div class="sidebar">
+<div>
+  <div>
+    <h1>Tags</h1>
+    <ul>
+      {% for tag in site.tags %}
+      <li><a href="#{{ tag[0] }}">#{{ tag[0] }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div>
+    <h2>Posts by Tag</h2>
+    {% for tag in site.tags %}
+    <h3 id="{{ tag[0] }}"># {{ tag[0] }}</h3>
+    <ul>
+      {% for post in tag[1] %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a> {{ post.date | date: "%d-%m-%Y" }}</li>
+      {% endfor %}
+    </ul>
+    {% endfor %}
+  </div>
+</div>
+</div>
+
+
+

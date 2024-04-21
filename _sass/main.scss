@@ -1,0 +1,74 @@
+html {
+	background-color: #474747;
+	color: #FFFFFF;
+    font-family: "PT Serif", serif;
+}
+a:link {
+	color: #FF0000;
+}
+a:visited {
+	color: #2a0000;
+}
+.container {
+	display: grid;
+	grid-template-columns: 1fr 1.5fr 0.5fr;
+	grid-template-rows: auto 1.7fr auto;
+	gap: 0px 0px;
+	grid-template-areas:
+		"navbar navbar logo"
+		"content content sidebar"
+		"footer footer footer";
+}
+.footer { 
+	grid-area: footer;
+	text-align: center;
+	margin: auto;
+	width: 60%;
+	padding: 10px; 
+	padding-top: 50px;
+}
+.sidebar { grid-area: sidebar; }
+.logo { grid-area: logo; }
+.navbar { grid-area: navbar; }
+.content { 
+	grid-area: content; 
+	justify-content: center;
+	margin-top: 10px;
+}
+.post {
+	grid-area: content;
+	text-align: center;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+
+.site-tag a {
+    display: inline-block;
+    margin-right: 12px;
+}
+.pt-serif-regular {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pt-serif-bold {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.pt-serif-regular-italic {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.pt-serif-bold-italic {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
