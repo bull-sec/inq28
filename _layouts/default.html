@@ -1,16 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title style="text-align:center;">=][=</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Link to your compiled CSS file -->
-  <link rel="stylesheet" href="/assets/css/styles.css">
+<link rel=stylesheet href="/assets/css/styles.css"></link>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-  {% include navigation.html %}
-  <div class="parallax"></div>
-    {% include home.html %}
-  <div class="parallax"></div>
+{% include navigation.html %}
+
+<div class="bgimg-1">
+  <div class="caption">
+  <span class="border">=][=</span>
+  </div>
+</div>
+
+<div style="color: #000;background-color:beige;text-align:center;padding:50px 80px;text-align: justify;">
+  <h3 style="text-align:center;">{{page.title}}</h3>
+</div>
+
+<div class="bgimg-2">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <p>{{content}}</p>
+  </div>
+</div>
+
+<div class="bgimg-3">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+ <p>{% include footer.html %}</p>
+  </div>
+</div>
+
+<div class="bgimg-4">
+  <div class="caption">
+  <span class="border">#inq28</span>
+  </div>
+</div>
+
 </body>
-{% include footer.html %}
 </html>
