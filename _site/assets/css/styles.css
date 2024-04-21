@@ -1,5 +1,18 @@
 footer {
+  padding-top: 25px;
   text-align: center;
+  background: black;
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+
+.content {
+  text-align: center;
+}
+
+.content a {
+  color: #cF0000;
 }
 
 .navbar {
@@ -83,6 +96,21 @@ h3 {
 }
 a {
   color: #fff;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.widthSet {
+  max-width: 250px;
+}
+
+.heightSet {
+  max-height: 150px;
 }
 
 /*# sourceMappingURL=styles.css.map */
