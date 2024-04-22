@@ -71,12 +71,12 @@ a {
 
 .bgimg-2 {
   background-image: url("/assets/img/blanche4.png");
-  min-height: 400px; /* Adjust height as needed */
+  min-height: 600px; /* Adjust height as needed */
 }
 
 .bgimg-3 {
   background-image: url("/assets/img/nurgle.jpg");
-  min-height: 400px; /* Adjust height as needed */
+  min-height: 600px; /* Adjust height as needed */
 }
 
 .bgimg-4 {
