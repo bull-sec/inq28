@@ -2,9 +2,6 @@ footer {
   padding-top: 25px;
   text-align: center;
   background: black;
-  position: absolute;
-  right: 0;
-  left: 0;
 }
 
 .content {
