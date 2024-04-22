@@ -1,3 +1,10 @@
+.cinzel-font {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
 footer {
   padding-top: 25px;
   text-align: center;
@@ -26,9 +33,9 @@ footer {
 }
 
 body, html {
+  font-family: "Cinzel", serif;
   height: 100%;
   margin: 0;
-  font: 400 15px/1.8 "Lato", sans-serif;
   color: #777;
 }
 
