@@ -1,82 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-04-22T06:49:41+00:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">=][=</title><author><name>PaintsPlastic</name></author><entry><title type="html">test</title><link href="http://0.0.0.0:4000/jekyll/update/2024/04/18/test.html" rel="alternate" type="text/html" title="test" /><published>2024-04-18T15:42:45+00:00</published><updated>2024-04-18T15:42:45+00:00</updated><id>http://0.0.0.0:4000/jekyll/update/2024/04/18/test</id><content type="html" xml:base="http://0.0.0.0:4000/jekyll/update/2024/04/18/test.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-04-22T06:54:04+00:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">=][=</title><author><name>PaintsPlastic</name></author><entry><title type="html">test</title><link href="http://0.0.0.0:4000/jekyll/update/2024/04/18/test.html" rel="alternate" type="text/html" title="test" /><published>2024-04-18T15:42:45+00:00</published><updated>2024-04-18T15:42:45+00:00</updated><id>http://0.0.0.0:4000/jekyll/update/2024/04/18/test</id><content type="html" xml:base="http://0.0.0.0:4000/jekyll/update/2024/04/18/test.html"><![CDATA[You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-<p>Jekyll requires blog post files to be named according to the following format:</p>
+Jekyll requires blog post files to be named according to the following format:
 
-<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+`YEAR-MONTH-DAY-title.MARKUP`
 
-<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
-<p>TEST</p>
+TEST
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+Jekyll also offers powerful support for code snippets:
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
 
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name>PaintsPlastic</name></author><category term="jekyll" /><category term="update" /><category term="Nurgle" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://0.0.0.0:4000/assets/img/The_Great_Unclean_One.png" /><media:content medium="image" url="http://0.0.0.0:4000/assets/img/The_Great_Unclean_One.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">test 2</title><link href="http://0.0.0.0:4000/jekyll/update/2024/04/18/test2.html" rel="alternate" type="text/html" title="test 2" /><published>2024-04-18T15:42:45+00:00</published><updated>2024-04-18T15:42:45+00:00</updated><id>http://0.0.0.0:4000/jekyll/update/2024/04/18/test2</id><content type="html" xml:base="http://0.0.0.0:4000/jekyll/update/2024/04/18/test2.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
-<p>Jekyll requires blog post files to be named according to the following format:</p>
-
-<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">x</span><span class="o">=</span><span class="mi">10</span>
-<span class="nf">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-</code></pre></div></div>
-
-<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
-
-<p>Jekyll also offers powerful support for code snippets:</p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
-
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name>PaintsPlastic</name></author><category term="jekyll" /><category term="update" /><category term="Nurgle" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://0.0.0.0:4000/assets/img/inquistor2.jpg" /><media:content medium="image" url="http://0.0.0.0:4000/assets/img/inquistor2.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">test 2</title><link href="http://0.0.0.0:4000/jekyll/update/2024/04/18/test3.html" rel="alternate" type="text/html" title="test 2" /><published>2024-04-18T15:42:45+00:00</published><updated>2024-04-18T15:42:45+00:00</updated><id>http://0.0.0.0:4000/jekyll/update/2024/04/18/test3</id><content type="html" xml:base="http://0.0.0.0:4000/jekyll/update/2024/04/18/test3.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
-
-<p>Jekyll requires blog post files to be named according to the following format:</p>
-
-<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">x</span><span class="o">=</span><span class="mi">10</span>
-<span class="nf">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-</code></pre></div></div>
-
-<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
-
-<p>Jekyll also offers powerful support for code snippets:</p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
-
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name>PaintsPlastic</name></author><category term="jekyll" /><category term="update" /><category term="Nurgle" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://0.0.0.0:4000/assets/img/inquistor2.jpg" /><media:content medium="image" url="http://0.0.0.0:4000/assets/img/inquistor2.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">test 2</title><link href="http://0.0.0.0:4000/jekyll/update/2024/04/18/test4.html" rel="alternate" type="text/html" title="test 2" /><published>2024-04-18T15:42:45+00:00</published><updated>2024-04-18T15:42:45+00:00</updated><id>http://0.0.0.0:4000/jekyll/update/2024/04/18/test4</id><content type="html" xml:base="http://0.0.0.0:4000/jekyll/update/2024/04/18/test4.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
-
-<p>Jekyll requires blog post files to be named according to the following format:</p>
-
-<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">x</span><span class="o">=</span><span class="mi">10</span>
-<span class="nf">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-</code></pre></div></div>
-
-<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
-
-<p>Jekyll also offers powerful support for code snippets:</p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
-
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name>PaintsPlastic</name></author><category term="jekyll" /><category term="update" /><category term="Nurgle" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://0.0.0.0:4000/assets/img/inquistor2.jpg" /><media:content medium="image" url="http://0.0.0.0:4000/assets/img/inquistor2.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">test 2</title><link href="http://0.0.0.0:4000/jekyll/update/2024/04/18/test5.html" rel="alternate" type="text/html" title="test 2" /><published>2024-04-18T15:42:45+00:00</published><updated>2024-04-18T15:42:45+00:00</updated><id>http://0.0.0.0:4000/jekyll/update/2024/04/18/test5</id><content type="html" xml:base="http://0.0.0.0:4000/jekyll/update/2024/04/18/test5.html"><![CDATA[You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/]]></content><author><name>PaintsPlastic</name></author><category term="jekyll" /><category term="update" /><category term="Nurgle" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://0.0.0.0:4000/assets/img/The_Great_Unclean_One.png" /><media:content medium="image" url="http://0.0.0.0:4000/assets/img/The_Great_Unclean_One.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">test 2</title><link href="http://0.0.0.0:4000/jekyll/update/2024/04/18/test2.html" rel="alternate" type="text/html" title="test 2" /><published>2024-04-18T15:42:45+00:00</published><updated>2024-04-18T15:42:45+00:00</updated><id>http://0.0.0.0:4000/jekyll/update/2024/04/18/test2</id><content type="html" xml:base="http://0.0.0.0:4000/jekyll/update/2024/04/18/test2.html"><![CDATA[You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 Jekyll requires blog post files to be named according to the following format:
 
@@ -103,100 +49,215 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/]]></content><author><name>PaintsPlastic</name></author><category term="jekyll" /><category term="update" /><category term="Nurgle" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://0.0.0.0:4000/assets/img/blanche3.jpg" /><media:content medium="image" url="http://0.0.0.0:4000/assets/img/blanche3.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">test 2</title><link href="http://0.0.0.0:4000/jekyll/update/2024/04/18/test6.html" rel="alternate" type="text/html" title="test 2" /><published>2024-04-18T15:42:45+00:00</published><updated>2024-04-18T15:42:45+00:00</updated><id>http://0.0.0.0:4000/jekyll/update/2024/04/18/test6</id><content type="html" xml:base="http://0.0.0.0:4000/jekyll/update/2024/04/18/test6.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+[jekyll-talk]: https://talk.jekyllrb.com/]]></content><author><name>PaintsPlastic</name></author><category term="jekyll" /><category term="update" /><category term="Nurgle" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://0.0.0.0:4000/assets/img/inquistor2.jpg" /><media:content medium="image" url="http://0.0.0.0:4000/assets/img/inquistor2.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">test 2</title><link href="http://0.0.0.0:4000/jekyll/update/2024/04/18/test3.html" rel="alternate" type="text/html" title="test 2" /><published>2024-04-18T15:42:45+00:00</published><updated>2024-04-18T15:42:45+00:00</updated><id>http://0.0.0.0:4000/jekyll/update/2024/04/18/test3</id><content type="html" xml:base="http://0.0.0.0:4000/jekyll/update/2024/04/18/test3.html"><![CDATA[You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-<p>Jekyll requires blog post files to be named according to the following format:</p>
+Jekyll requires blog post files to be named according to the following format:
 
-<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+`YEAR-MONTH-DAY-title.MARKUP`
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">x</span><span class="o">=</span><span class="mi">10</span>
-<span class="nf">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-</code></pre></div></div>
+```python
+x=10
+print(x)
+```
 
-<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+Jekyll also offers powerful support for code snippets:
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
 
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name>PaintsPlastic</name></author><category term="jekyll" /><category term="update" /><category term="Nurgle" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://0.0.0.0:4000/assets/img/inquistor2.jpg" /><media:content medium="image" url="http://0.0.0.0:4000/assets/img/inquistor2.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">test 2</title><link href="http://0.0.0.0:4000/jekyll/update/2024/04/18/test7.html" rel="alternate" type="text/html" title="test 2" /><published>2024-04-18T15:42:45+00:00</published><updated>2024-04-18T15:42:45+00:00</updated><id>http://0.0.0.0:4000/jekyll/update/2024/04/18/test7</id><content type="html" xml:base="http://0.0.0.0:4000/jekyll/update/2024/04/18/test7.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
-<p>Jekyll requires blog post files to be named according to the following format:</p>
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/]]></content><author><name>PaintsPlastic</name></author><category term="jekyll" /><category term="update" /><category term="Nurgle" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://0.0.0.0:4000/assets/img/inquistor2.jpg" /><media:content medium="image" url="http://0.0.0.0:4000/assets/img/inquistor2.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">test 2</title><link href="http://0.0.0.0:4000/jekyll/update/2024/04/18/test4.html" rel="alternate" type="text/html" title="test 2" /><published>2024-04-18T15:42:45+00:00</published><updated>2024-04-18T15:42:45+00:00</updated><id>http://0.0.0.0:4000/jekyll/update/2024/04/18/test4</id><content type="html" xml:base="http://0.0.0.0:4000/jekyll/update/2024/04/18/test4.html"><![CDATA[You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+Jekyll requires blog post files to be named according to the following format:
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">x</span><span class="o">=</span><span class="mi">10</span>
-<span class="nf">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-</code></pre></div></div>
+`YEAR-MONTH-DAY-title.MARKUP`
 
-<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+```python
+x=10
+print(x)
+```
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+Jekyll also offers powerful support for code snippets:
 
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name>PaintsPlastic</name></author><category term="jekyll" /><category term="update" /><category term="Nurgle" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://0.0.0.0:4000/assets/img/inquistor2.jpg" /><media:content medium="image" url="http://0.0.0.0:4000/assets/img/inquistor2.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">test 2</title><link href="http://0.0.0.0:4000/jekyll/update/2024/04/18/test8.html" rel="alternate" type="text/html" title="test 2" /><published>2024-04-18T15:42:45+00:00</published><updated>2024-04-18T15:42:45+00:00</updated><id>http://0.0.0.0:4000/jekyll/update/2024/04/18/test8</id><content type="html" xml:base="http://0.0.0.0:4000/jekyll/update/2024/04/18/test8.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
 
-<p>Jekyll requires blog post files to be named according to the following format:</p>
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
-<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/]]></content><author><name>PaintsPlastic</name></author><category term="jekyll" /><category term="update" /><category term="Nurgle" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://0.0.0.0:4000/assets/img/inquistor2.jpg" /><media:content medium="image" url="http://0.0.0.0:4000/assets/img/inquistor2.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">test 2</title><link href="http://0.0.0.0:4000/jekyll/update/2024/04/18/test5.html" rel="alternate" type="text/html" title="test 2" /><published>2024-04-18T15:42:45+00:00</published><updated>2024-04-18T15:42:45+00:00</updated><id>http://0.0.0.0:4000/jekyll/update/2024/04/18/test5</id><content type="html" xml:base="http://0.0.0.0:4000/jekyll/update/2024/04/18/test5.html"><![CDATA[You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">x</span><span class="o">=</span><span class="mi">10</span>
-<span class="nf">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-</code></pre></div></div>
+Jekyll requires blog post files to be named according to the following format:
 
-<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+`YEAR-MONTH-DAY-title.MARKUP`
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+```python
+x=10
+print(x)
+```
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name>PaintsPlastic</name></author><category term="jekyll" /><category term="update" /><category term="Nurgle" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://0.0.0.0:4000/assets/img/inquistor2.jpg" /><media:content medium="image" url="http://0.0.0.0:4000/assets/img/inquistor2.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">test 2</title><link href="http://0.0.0.0:4000/jekyll/update/2024/04/18/test9.html" rel="alternate" type="text/html" title="test 2" /><published>2024-04-18T15:42:45+00:00</published><updated>2024-04-18T15:42:45+00:00</updated><id>http://0.0.0.0:4000/jekyll/update/2024/04/18/test9</id><content type="html" xml:base="http://0.0.0.0:4000/jekyll/update/2024/04/18/test9.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+Jekyll also offers powerful support for code snippets:
 
-<p>Jekyll requires blog post files to be named according to the following format:</p>
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
 
-<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">x</span><span class="o">=</span><span class="mi">10</span>
-<span class="nf">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-</code></pre></div></div>
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/]]></content><author><name>PaintsPlastic</name></author><category term="jekyll" /><category term="update" /><category term="Nurgle" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://0.0.0.0:4000/assets/img/blanche3.jpg" /><media:content medium="image" url="http://0.0.0.0:4000/assets/img/blanche3.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">test 2</title><link href="http://0.0.0.0:4000/jekyll/update/2024/04/18/test6.html" rel="alternate" type="text/html" title="test 2" /><published>2024-04-18T15:42:45+00:00</published><updated>2024-04-18T15:42:45+00:00</updated><id>http://0.0.0.0:4000/jekyll/update/2024/04/18/test6</id><content type="html" xml:base="http://0.0.0.0:4000/jekyll/update/2024/04/18/test6.html"><![CDATA[You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+Jekyll requires blog post files to be named according to the following format:
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+`YEAR-MONTH-DAY-title.MARKUP`
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+```python
+x=10
+print(x)
+```
 
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name>PaintsPlastic</name></author><category term="jekyll" /><category term="update" /><category term="Nurgle" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://0.0.0.0:4000/assets/img/inquistor2.jpg" /><media:content medium="image" url="http://0.0.0.0:4000/assets/img/inquistor2.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://0.0.0.0:4000/jekyll/update/2024/04/18/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2024-04-18T15:42:45+00:00</published><updated>2024-04-18T15:42:45+00:00</updated><id>http://0.0.0.0:4000/jekyll/update/2024/04/18/welcome-to-jekyll</id><content type="html" xml:base="http://0.0.0.0:4000/jekyll/update/2024/04/18/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
-<p>Jekyll requires blog post files to be named according to the following format:</p>
+Jekyll also offers powerful support for code snippets:
 
-<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
 
-<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/]]></content><author><name>PaintsPlastic</name></author><category term="jekyll" /><category term="update" /><category term="Nurgle" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://0.0.0.0:4000/assets/img/inquistor2.jpg" /><media:content medium="image" url="http://0.0.0.0:4000/assets/img/inquistor2.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">test 2</title><link href="http://0.0.0.0:4000/jekyll/update/2024/04/18/test7.html" rel="alternate" type="text/html" title="test 2" /><published>2024-04-18T15:42:45+00:00</published><updated>2024-04-18T15:42:45+00:00</updated><id>http://0.0.0.0:4000/jekyll/update/2024/04/18/test7</id><content type="html" xml:base="http://0.0.0.0:4000/jekyll/update/2024/04/18/test7.html"><![CDATA[You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+Jekyll requires blog post files to be named according to the following format:
 
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name>PaintsPlastic</name></author><category term="jekyll" /><category term="update" /><category term="Nurgle" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://0.0.0.0:4000/assets/img/inquistor1.jpg" /><media:content medium="image" url="http://0.0.0.0:4000/assets/img/inquistor1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+`YEAR-MONTH-DAY-title.MARKUP`
+
+```python
+x=10
+print(x)
+```
+
+Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+
+Jekyll also offers powerful support for code snippets:
+
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/]]></content><author><name>PaintsPlastic</name></author><category term="jekyll" /><category term="update" /><category term="Nurgle" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://0.0.0.0:4000/assets/img/inquistor2.jpg" /><media:content medium="image" url="http://0.0.0.0:4000/assets/img/inquistor2.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">test 2</title><link href="http://0.0.0.0:4000/jekyll/update/2024/04/18/test8.html" rel="alternate" type="text/html" title="test 2" /><published>2024-04-18T15:42:45+00:00</published><updated>2024-04-18T15:42:45+00:00</updated><id>http://0.0.0.0:4000/jekyll/update/2024/04/18/test8</id><content type="html" xml:base="http://0.0.0.0:4000/jekyll/update/2024/04/18/test8.html"><![CDATA[You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+
+Jekyll requires blog post files to be named according to the following format:
+
+`YEAR-MONTH-DAY-title.MARKUP`
+
+```python
+x=10
+print(x)
+```
+
+Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+
+Jekyll also offers powerful support for code snippets:
+
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/]]></content><author><name>PaintsPlastic</name></author><category term="jekyll" /><category term="update" /><category term="Nurgle" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://0.0.0.0:4000/assets/img/inquistor2.jpg" /><media:content medium="image" url="http://0.0.0.0:4000/assets/img/inquistor2.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">test 2</title><link href="http://0.0.0.0:4000/jekyll/update/2024/04/18/test9.html" rel="alternate" type="text/html" title="test 2" /><published>2024-04-18T15:42:45+00:00</published><updated>2024-04-18T15:42:45+00:00</updated><id>http://0.0.0.0:4000/jekyll/update/2024/04/18/test9</id><content type="html" xml:base="http://0.0.0.0:4000/jekyll/update/2024/04/18/test9.html"><![CDATA[You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+
+Jekyll requires blog post files to be named according to the following format:
+
+`YEAR-MONTH-DAY-title.MARKUP`
+
+```python
+x=10
+print(x)
+```
+
+Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+
+Jekyll also offers powerful support for code snippets:
+
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/]]></content><author><name>PaintsPlastic</name></author><category term="jekyll" /><category term="update" /><category term="Nurgle" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://0.0.0.0:4000/assets/img/inquistor2.jpg" /><media:content medium="image" url="http://0.0.0.0:4000/assets/img/inquistor2.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://0.0.0.0:4000/jekyll/update/2024/04/18/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2024-04-18T15:42:45+00:00</published><updated>2024-04-18T15:42:45+00:00</updated><id>http://0.0.0.0:4000/jekyll/update/2024/04/18/welcome-to-jekyll</id><content type="html" xml:base="http://0.0.0.0:4000/jekyll/update/2024/04/18/welcome-to-jekyll.html"><![CDATA[You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+
+Jekyll requires blog post files to be named according to the following format:
+
+`YEAR-MONTH-DAY-title.MARKUP`
+
+Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+
+Jekyll also offers powerful support for code snippets:
+
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/]]></content><author><name>PaintsPlastic</name></author><category term="jekyll" /><category term="update" /><category term="Nurgle" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://0.0.0.0:4000/assets/img/inquistor1.jpg" /><media:content medium="image" url="http://0.0.0.0:4000/assets/img/inquistor1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
