@@ -161,6 +161,12 @@ code {
   height: auto; /* Maintain aspect ratio */
   margin: 0;
   border: 5px solid #555;
+  /* Rounded corners */
+  border-radius: 8px;
+  /* Box shadow for a subtle 3D effect */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Transition for smooth hover effect */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 /* Footer */
