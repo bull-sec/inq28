@@ -2,7 +2,6 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2024-04-18 15:42:45 +0000
-categories: jekyll update
 image: /assets/img/inquistor1.jpg
 tag: ["Nurgle"]
 ---
