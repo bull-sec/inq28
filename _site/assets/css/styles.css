@@ -157,6 +157,8 @@ code {
 /* Define the post-item style */
 .post-item {
   height: 300px; /* Set a fixed height for each post item */
+  align-items: center;
+  justify-content: center;
 }
 
 /* Define the post-link style */
