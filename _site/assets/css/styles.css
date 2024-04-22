@@ -1,3 +1,4 @@
+/* Typography */
 .cinzel-font {
   font-family: "Cinzel", serif;
   font-optical-sizing: auto;
@@ -5,21 +6,28 @@
   font-style: normal;
 }
 
-footer {
-  padding-top: 25px;
-  text-align: center;
-  background: black;
-  padding: 15px 0;
+h3 {
+  font-family: "Cinzel", serif;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-size: 20px; /* Adjust size as needed */
+  color: #111;
 }
 
-.content {
-  text-align: center;
+/* Body and HTML */
+body, html {
+  font-family: "Cinzel", serif;
+  height: 100%;
+  margin: 0;
+  color: #777;
 }
 
+/* Links */
 .content a {
   color: #cF0000;
 }
 
+/* Navbar */
 .navbar {
   float: right;
   position: fixed;
@@ -29,7 +37,7 @@ footer {
   margin-bottom: 0;
   background: #000;
   color: #fff;
-  font-size: 20pt;
+  font-size: 18pt; /* Adjust size as needed */
   padding: 15px 0;
 }
 
@@ -39,20 +47,14 @@ footer {
 
 .navbar img {
   float: left;
-  max-height: 100px;
+  max-height: 100px; /* Adjust size as needed */
 }
 
-h3 {
-  font-family: "Cinzel", serif;
+a {
+  color: #fff;
 }
 
-body, html {
-  font-family: "Cinzel", serif;
-  height: 100%;
-  margin: 0;
-  color: #777;
-}
-
+/* Sections Background Images */
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
   position: relative;
   opacity: 0.99;
@@ -69,12 +71,12 @@ body, html {
 
 .bgimg-2 {
   background-image: url("/assets/img/blanche4.png");
-  min-height: 400px;
+  min-height: 400px; /* Adjust height as needed */
 }
 
 .bgimg-3 {
   background-image: url("/assets/img/nurgle.jpg");
-  min-height: 400px;
+  min-height: 400px; /* Adjust height as needed */
 }
 
 .bgimg-4 {
@@ -82,6 +84,7 @@ body, html {
   min-height: 100%;
 }
 
+/* Caption */
 .caption {
   position: absolute;
   left: 0;
@@ -95,27 +98,11 @@ body, html {
   background-color: #111;
   color: #fff;
   padding: 18px;
-  font-size: 25px;
+  font-size: 25px; /* Adjust size as needed */
   letter-spacing: 10px;
 }
 
-h3 {
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  font: 20px "Lato", sans-serif;
-  color: #111;
-}
-
-/* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width: 1024px) {
-  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
-    background-attachment: scroll;
-  }
-}
-a {
-  color: #fff;
-}
-
+/* Centering */
 .center {
   display: block;
   margin-left: auto;
@@ -123,14 +110,16 @@ a {
   width: 50%;
 }
 
+/* Image Sizing */
 .widthSet {
-  max-width: 250px;
+  max-width: 250px; /* Adjust size as needed */
 }
 
 .heightSet {
-  max-height: 150px;
+  max-height: 150px; /* Adjust size as needed */
 }
 
+/* Columns and Rows */
 .column {
   float: left;
   width: 50%;
@@ -143,31 +132,43 @@ a {
   clear: both;
 }
 
+/* Code Blocks */
 code {
-  font: 18px;
+  font-size: 14px;
 }
 
-.post-image {
-  max-width: 100%;
-  max-height: 200px; /* Adjusted to prevent overlapping with text */
-  width: auto;
-  height: auto; /* Maintain aspect ratio */
+/* Posts */
+.post {
+  text-align: center;
 }
 
-/* Define the post-item style */
 .post-item {
-  height: 300px; /* Set a fixed height for each post item */
-  align-items: center;
-  justify-content: center;
+  height: 600px; /* Set a fixed height for each post item */
+  text-align: center;
 }
 
-/* Define the post-link style */
 .post-link {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  gap: 2px;
+}
+
+/* Post Images */
+.post-image {
+  max-width: 100%;
+  max-height: 500px; /* Adjusted to prevent overlapping with text */
+  width: auto;
+  height: auto; /* Maintain aspect ratio */
+  margin: 0;
+  border: 5px solid #555;
+}
+
+/* Footer */
+footer {
+  padding-top: 25px;
+  text-align: center;
+  background: black;
+  padding: 15px 0;
 }
 
 /*# sourceMappingURL=styles.css.map */

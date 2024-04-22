@@ -1,0 +1,9 @@
+{% assign quotes = site.data.quotes.quotes %}
+{% assign total_quotes = quotes | size %}
+{% assign random_index = site.time | date: "%s" | modulo: total_quotes %}
+{% assign quote = quotes[random_index] %}
+
+<blockquote>
+  <p>{{ quote.text }}</p>
+  <footer><i>{{ quote.author }}</i></footer>
+</blockquote>
