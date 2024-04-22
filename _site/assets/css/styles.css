@@ -9,6 +9,7 @@ footer {
   padding-top: 25px;
   text-align: center;
   background: black;
+  padding: 15px 0;
 }
 
 .content {
@@ -140,6 +141,10 @@ a {
   content: "";
   display: table;
   clear: both;
+}
+
+code {
+  font: 18px;
 }
 
 /*# sourceMappingURL=styles.css.map */
