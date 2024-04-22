@@ -41,6 +41,10 @@ footer {
   max-height: 100px;
 }
 
+h3 {
+  font-family: "Cinzel", serif;
+}
+
 body, html {
   font-family: "Cinzel", serif;
   height: 100%;
