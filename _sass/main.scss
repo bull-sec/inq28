@@ -140,6 +140,9 @@ code {
 /* Posts */
 .post {
   text-align: center;
+  margin: 0 auto;
+  max-width: 60%; /* Constrain to 80% of the screen width */
+  padding: 0 100px; /* Optional: Add padding to maintain space on left and right */
 }
 .post-item {
   height: 600px; /* Set a fixed height for each post item */
@@ -177,4 +180,5 @@ footer {
   background: black;
   padding: 15px 0;
 }
+
 
