@@ -6,4 +6,5 @@ image: /assets/img/grimdark1.png
 tags: ["grimdark", "inq28"]
 ---
 
-"In the grim darkness of the 41st Millenium, there is only war"
+"In the grim darkness of the 41st Millennium, there is only war"
+
