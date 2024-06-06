@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>{{site.title}}</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+<link rel=stylesheet href="/assets/css/styles.css"></link>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+{% include navigation.html %}
+
+<div class="bgimg-1">
+<!--  <div class="caption">
+  <span class="border">=][=</span>
+  </div>-->
+</div>
+
+<!-- <div style="color:#FFFFFF;background-color:#000;text-align:center;padding:50px 80px;text-align: justify;">
+  <h3 style="color:#FFF;text-align:center;">{% include quote_of_the_day.html %}</h3>
+</div>
+
+<div class="bgimg-2">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
+  </div>
+</div> -->
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#000;text-align:center;padding:50px 80px;text-align: justify;">
+  <p>{{content}}</p>
+  </div>
+</div>
+
+<!--
+<div class="bgimg-3">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
+  </div>
+</div>
+-->
+<div class="bgimg-4">
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#000;text-align:center;padding:50px 80px;text-align: justify;">
+ <p>{% include footer.html %}</p>
+  </div>
+</div>
+
+
+</body>
+</html>
