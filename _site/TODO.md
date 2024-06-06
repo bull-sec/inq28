@@ -116,3 +116,13 @@ Oil.
 ---
 
 
+https://github.com/bdesham/reading_time
+
+```
+  {% capture time %}{{ content | reading_time }}{% endcapture %}
+  <p>This article will take {{ time }} {% if time == '1' %}minute{% else %}minutes{% endif %} to read.</p>
+```
+
+```
+  <p>This article will take {{ content | reading_time | pluralize: "minute" }} to read.</p>
+```
