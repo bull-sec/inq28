@@ -11,44 +11,13 @@
 <body>
 {% include navigation.html %}
 
-<div class="bgimg-1">
-<!--  <div class="caption">
-  <span class="border">=][=</span>
-  </div>-->
-</div>
-
-<div style="color:#FFFFFF;background-color:#000;text-align:center;padding:50px 80px;text-align: justify;">
-  <h3 style="color:#FFF;text-align:center;">{% include quote_of_the_day.html %}</h3>
-</div>
-
-<div class="bgimg-2">
-  <div class="caption">
-  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
+<div class="content">
+  <div class="container">
+    <h1>{{site.title}}</h1>
+    <p>{{content}}</p>
+    {% include footer.html %}
   </div>
 </div>
-
-<div style="position:relative;">
-  <div style="color:#ddd;background-color:#000;text-align:center;padding:50px 80px;text-align: justify;">
-  <p>{{content}}</p>
-  </div>
-</div>
-
-<!--
-<div class="bgimg-3">
-  <div class="caption">
-  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
-  </div>
-</div>
--->
-<div class="bgimg-4">
-</div>
-
-<div style="position:relative;">
-  <div style="color:#ddd;background-color:#000;text-align:center;padding:50px 80px;text-align: justify;">
- <p>{% include footer.html %}</p>
-  </div>
-</div>
-
 
 </body>
 </html>
