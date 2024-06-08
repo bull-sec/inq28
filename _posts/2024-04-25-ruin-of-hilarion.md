@@ -5,7 +5,7 @@ date:   2024-04-25 09:00:00 +0000
 image: /assets/img/grimdark1.png
 tags: ["grimdark", "inq28", "hilarion"]
 author: PaintsPlastic
-published: false
+published: true
 ---
 
 Nestled within the Hazeroth Abyss in the Calixis Sector lies the Agri-world of Hilarion. 
