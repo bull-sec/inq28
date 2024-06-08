@@ -3,7 +3,7 @@ layout: post
 title:  "The Body in the Wall"
 date:   2024-06-08 09:00:00 +0000
 image: /assets/img/grimdark1.png
-tags: grimdark inq28 3458-decima
+tags: grimdark inq28 3458-decima featured
 author: PaintsPlastic
 published: true
 ---

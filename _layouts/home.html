@@ -2,22 +2,40 @@
 layout: default
 ---
 
-<div class="parallax"></div>
 
-<div>
-    <h2>Articles</h2>
-      {% for post in site.posts limit:6 %}
-        <div class="post-item">
-            <h3 class="txt-center" href="{{ post.url }}">{{ post.title }}</h3>
-            <p></p>
-            <a href="{{ post.url }}"><img class="card" src="{{ post.image }}" alt="{{ post.title }}" class="center post-image"></a>
-            <p></p>
-        </div>
-      {% endfor %}
+<div class="blank-block">
 </div>
 
-<div class="parallax_section_2"></div>
+<div class="featured-posts-container">
+    {% for post in site.tags.featured limit:3 %}
+        <div class="featured-post">
+          <a href="{{ post.url }}">
+            <img src="{{ post.image }}" alt="{{ post.title }}">
+            <div class="overlay">
+                <div class="cover-block__inner-container">
+                    <h3>{{ post.title }}</h3>
+                </div>
+              </a>
+            </div>
 
+        </div>
+    {% endfor %}
+</div>
 
-  
-  
+<div class="blank-block"></div>
+
+{% for post in site.posts limit:6 %}
+<div class="cover-block">
+  <a href="{{ post.url }}">
+    <img src="{{ post.image }}" alt="Cover Image" class="cover-image">
+    <div class="cover-block__inner-container">
+      <div class="layout-flow">
+        <h2 href="{{ post.url }}">{{ post.title }}</h2>
+      </div>
+      <p></p>
+    </div>
+    </a>
+  </div>
+{% endfor %}
+ 
+<div class="blank-block"></div>
