@@ -27,6 +27,11 @@ body, html {
   color: #cF0000;
 }
 
+/* Content Background */
+.content {
+  background-color: #111;
+}
+
 /* Navbar */
 .navbar {
   float: right;
@@ -212,3 +217,44 @@ footer {
 @media (max-width: 576px) {
   /* Adjust styles for even smaller screens */
 }
+
+.content-container {
+  position: relative;
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  color: #ddd;
+  padding: 50px 80px;
+}
+
+.content-centered {
+  text-align: center;
+}
+
+/* Custom bullet points */
+// .custom-bullet ul {
+//   list-style-type: none; /* Remove default bullets */
+//   padding-left: 0; /* Remove default padding */
+// }
+
+ul, ol {
+  list-style: none;
+}
+
+// .custom-bullet li {
+//   position: relative; /* Enable positioning of the bullet */
+//   padding-left: 25px; /* Space for the custom bullet */
+// }
+
+// .custom-bullet li:before {
+//   content: "\2620"; /* Unicode for skull and crossbones */
+//   font-family: "Cinzel", serif; /* Use the same font */
+//   position: absolute; /* Position it absolutely */
+//   left: 0; /* Align it to the left of the list item */
+//   top: 50%; /* Align it to the middle of the list item */
+//   transform: translateY(-50%); /* Center it vertically */
+//   font-size: 1.5em; /* Adjust size as needed */
+//   color: #fff; /* Color of the bullet */
+// }

@@ -27,6 +27,11 @@ body, html {
   color: #cF0000;
 }
 
+/* Content Background */
+.content {
+  background-color: #111;
+}
+
 /* Navbar */
 .navbar {
   float: right;
@@ -206,6 +211,25 @@ footer {
 /* For screens smaller than 576px (typical smartphones) */
 @media (max-width: 576px) {
   /* Adjust styles for even smaller screens */
+}
+.content-container {
+  position: relative;
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  color: #ddd;
+  padding: 50px 80px;
+}
+
+.content-centered {
+  text-align: center;
+}
+
+/* Custom bullet points */
+ul, ol {
+  list-style: none;
 }
 
 /*# sourceMappingURL=styles.css.map */
