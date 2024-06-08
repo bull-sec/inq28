@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "The Black Bishop"
+title:  "The Body in the Wall"
 date:   2024-06-08 09:00:00 +0000
 image: /assets/img/grimdark1.png
 tags: grimdark inq28 3458-decima
 author: PaintsPlastic
-published: false
+published: true
 ---
 
 The young man fidgeted in the cold metal chair, he didn't seem to know what to do with his hands.

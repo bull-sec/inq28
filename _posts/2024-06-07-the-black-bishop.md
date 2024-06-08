@@ -2,7 +2,7 @@
 layout: post
 title:  "The Black Bishop"
 date:   2024-06-06 09:00:00 +0000
-image: /assets/img/inquistor1.jpg
+image: /assets/img/blanche1.jpg
 tags: grimdark inq28 3458-decima
 author: PaintsPlastic
 published: true

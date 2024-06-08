@@ -1,22 +1,113 @@
-/* General styles */
+/* Color Palette */
+:root {
+  --primary-color: #2196F3;       /* Blue */
+  --secondary-color: #FFC107;     /* Amber */
+  --background-color: #212121;    /* Dark grey */
+  --surface-color: #333;          /* Slightly lighter grey */
+  --on-primary-color: #fff;       /* White */
+  --on-secondary-color: #000;     /* Black */
+  --on-background-color: #fff;    /* White */
+  --on-surface-color: #fff;       /* White */
+}
+
+/* General Styles */
 body, html {
   font-family: "Cinzel", serif;
   height: 100%;
   margin: 0;
-  color: #333;
+  color: var(--on-background-color);
+  background-color: var(--background-color);
 }
 
-/* Navigation styles */
+a {
+  color: var(--primary-color);
+  text-decoration: none; /* Remove default underline */
+}
+
+a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+a:visited {
+  color: var(--on-background-color); /* Visited link color */
+}
+
+/* Button Styles */
+.button {
+  background-color: var(--primary-color);
+  color: var(--on-primary-color);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--secondary-color);
+}
+
+/* Card Styles */
+.card {
+  background-color: var(--surface-color);
+  color: var(--on-surface-color);
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; /* Added margin for spacing */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+/* Cover Block Styles */
+.cover-block {
+  position: relative;
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+
+.cover-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.cover-block__inner-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 1200px; /* Adjust as needed */
+  padding: 20px;
+  text-align: center;
+  color: white; /* Text color */
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+}
+
+.layout-flow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.layout-flow h2, .layout-flow p {
+  margin: 10px 0;
+}
+
+/* Navigation Styles */
 .navbar {
-  background-color: #333;
-  color: #fff;
+  background-color: var(--surface-color);
+  color: var(--on-surface-color);
   padding: 10px 20px; /* Increase padding to create some space */
   width: 100%; /* Occupy full width */
   box-sizing: border-box; /* Ensure padding is included in the width */
 }
 
 .navbar .container {
-  max-width: 960px; /* Limit container width */
   margin: 0 auto; /* Center the container */
   display: flex;
   justify-content: space-between;
@@ -44,7 +135,7 @@ body, html {
 }
 
 .navbar-links ul li a {
-  color: #fff;
+  color: var(--on-surface-color);
   text-decoration: none;
 }
 
@@ -52,13 +143,13 @@ body, html {
   text-decoration: underline;
 }
 
-/* Content styles */
+/* Content Styles */
 .content {
   padding: 20px;
 }
 
 .container {
-  max-width: 600px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -72,10 +163,17 @@ body, html {
   line-height: 1.6;
 }
 
-/* Footer styles */
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* Footer Styles */
 .footer {
-  background-color: #333;
-  color: #fff;
+  background-color: var(--surface-color);
+  color: var(--on-surface-color);
   padding: 20px 0;
   text-align: center;
 }
@@ -84,7 +182,7 @@ body, html {
   margin: 0;
 }
 
-/* Tag list styles */
+/* Tag List Styles */
 .tag-list {
   list-style: none;
   padding: 0;
@@ -95,7 +193,7 @@ body, html {
 }
 
 .tag-list li a {
-  color: #333;
+  color: var(--on-background-color);
   text-decoration: none;
 }
 
@@ -103,98 +201,11 @@ body, html {
   text-decoration: underline;
 }
 
-/* Image styles for printing */
-/* Image styles */
-.post-image {
-  max-width: 100%;
-  height: auto;
-}
 
-.img centre {
-  max-width: 100%;
-  height: auto;
-}
-
-/* Link styles */
-a {
-  color: #007bff; /* Default link color */
-  text-decoration: none; /* Remove default underline */
-}
-
-a:hover {
-  text-decoration: underline; /* Add underline on hover */
-}
-
-a:visited {
-  color: #ffffff; /* Visited link color (red) */
-}
-
-/* Color Palette */
-:root {
-  --primary-color: #2196F3; /* Blue */
-  --secondary-color: #FFC107; /* Amber */
-  --background-color: #212121; /* Dark grey */
-  --surface-color: #333; /* Slightly lighter grey */
-  --on-primary-color: #fff; /* White */
-  --on-secondary-color: #000; /* Black */
-  --on-background-color: #fff; /* White */
-  --on-surface-color: #fff; /* White */
-}
-
-/* General styles */
-body {
-  background-color: var(--background-color);
-  color: var(--on-background-color);
-}
-
-/* Navbar styles */
-.navbar {
-  background-color: var(--surface-color);
-  color: var(--on-surface-color);
-  padding: 10px 20px;
-}
-
-/* Link styles */
-a {
-  color: var(--primary-color);
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-/* Button styles */
-.button {
-  background-color: var(--primary-color);
-  color: var(--on-primary-color);
-  border: none;
-  padding: 10px 20px;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.button:hover {
-  background-color: var(--secondary-color);
-}
-
-/* Card styles */
-.card {
-  background-color: var(--surface-color);
-  color: var(--on-surface-color);
-  padding: 20px;
-  border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
+/* Parallax Styles */
 .parallax {
-  /* The image used */
   background-image: url("/assets/img/mechanicus.jpg");
-
-  /* Set a specific height */
   min-height: 500px; 
-
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -202,15 +213,26 @@ a:hover {
 }
 
 .parallax_section_2 {
-  /* The image used */
   background-image: url("/assets/img/blanche3.jpg");
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-    /* Set a specific height */
-    min-height: 500px; 
 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+@media only screen and (max-width: 768px) {
+  /* For mobile phones */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+/* Desktop Styles */
+@media (min-width: 768px) {
+  .content, .container {
+    width: 80%;
+    margin: 0 auto;
+  }
 }

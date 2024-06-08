@@ -2,7 +2,7 @@
 layout: post
 title:  "The Ruin of Hilarion"
 date:   2024-04-25 09:00:00 +0000
-image: /assets/img/grimdark1.png
+image: /assets/img/blanche2.jpg
 tags: ["grimdark", "inq28", "hilarion"]
 author: PaintsPlastic
 published: true
