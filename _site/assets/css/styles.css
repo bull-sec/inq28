@@ -363,7 +363,7 @@ img {
 }
 
 .typewriter p:nth-child(9) {
-  animation-delay: 12.5s; /* Adjust delay as needed */
+  animation-delay: 13s; /* Adjust delay as needed */
 }
 
 /* Typewriter2 Effect */
@@ -373,7 +373,7 @@ img {
 }
 
 .typewriter2 p:nth-child(1) {
-  animation-delay: 12.5s; /* Adjust delay as needed */
+  animation-delay: 13s; /* Adjust delay as needed */
 }
 
 .typewriter2 p:nth-child(2) {
