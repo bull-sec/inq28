@@ -1,235 +1,428 @@
-/* Typography */
-.cinzel-font {
-  font-family: "Cinzel", serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
+/* Color Palette */
+:root {
+  --primary-color: #8a0909; /* Blue */
+  --secondary-color: #FFC107; /* Amber */
+  --background-color: #0c0c0c; /* Dark grey */
+  --surface-color: #232222; /* Slightly lighter grey */
+  --on-primary-color: #fff; /* White */
+  --on-secondary-color: #000; /* Black */
+  --on-background-color: #fff; /* White */
+  --on-surface-color: #fff; /* White */
 }
 
-h3 {
-  font-family: "Cinzel", serif;
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  font-size: 20px; /* Adjust size as needed */
-  color: #111;
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Body and HTML */
 body, html {
   font-family: "Cinzel", serif;
   height: 100%;
   margin: 0;
-  color: #777;
-}
-
-/* Links */
-.content a {
-  color: #cF0000;
-}
-
-/* Content Background */
-.content {
-  background-color: #111;
-}
-
-/* Navbar */
-.navbar {
-  float: right;
-  position: fixed;
-  right: 0;
-  left: 0;
-  z-index: 1030;
-  margin-bottom: 0;
-  background: #000;
-  color: #fff;
-  font-size: 18pt; /* Adjust size as needed */
-  padding: 15px 0;
-}
-
-.navbar a {
-  float: right;
-}
-
-.navbar img {
-  float: left;
-  max-height: 100px; /* Adjust size as needed */
+  color: var(--on-background-color);
+  background-color: var(--background-color);
 }
 
 a {
-  color: #fff;
+  color: var(--primary-color);
+  text-decoration: none; /* Remove default underline */
 }
 
-/* Sections Background Images */
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
-  position: relative;
-  opacity: 0.99;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+a:hover {
+  text-decoration: underline; /* Add underline on hover */
 }
 
-.bgimg-1 {
-  background-image: url("/assets/img/background.jpg");
-  min-height: 100%;
+a:visited {
+  color: var(--on-background-color); /* Visited link color */
 }
 
-.bgimg-2 {
-  background-image: url("/assets/img/blanche4.png");
-  min-height: 600px; /* Adjust height as needed */
-}
-
-.bgimg-3 {
-  background-image: url("/assets/img/nurgle.jpg");
-  min-height: 600px; /* Adjust height as needed */
-}
-
-.bgimg-4 {
-  background-image: url("/assets/img/blanche2.jpg");
-  min-height: 100%;
-}
-
-/* Caption */
-.caption {
-  position: absolute;
-  left: 0;
-  top: 50%;
+img {
   width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Layout Styles */
+.layout-flow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.layout-flow h2, .layout-flow p {
+  margin: 10px 0;
+}
+
+/* Navigation Styles */
+.navbar {
+  background-color: var(--surface-color);
+  color: var(--on-surface-color);
+  padding: 10px 20px; /* Increase padding to create some space */
+  width: 100%; /* Occupy full width */
+  box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+.navbar .container {
+  margin: 0 auto; /* Center the container */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.navbar-links ul li:last-child {
+  margin-right: 0;
+}
+
+.navbar-links ul li a {
+  color: var(--on-surface-color);
+  text-decoration: none;
+}
+
+.navbar-links ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Button Styles */
+.button {
+  background-color: var(--primary-color);
+  color: var(--on-primary-color);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--secondary-color);
+}
+
+/* Card Styles */
+.card {
+  background-color: var(--surface-color);
+  color: var(--on-surface-color);
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; /* Added margin for spacing */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+/* Cover Block Styles */
+.cover-block {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  overflow: hidden;
+  height: 250px; /* Set the height of the container to 50px */
+}
+
+.cover-image {
+  position: absolute;
+  top: 50%; /* Position the image center vertically */
+  left: 50%; /* Position the image center horizontally */
+  width: auto; /* Maintain the aspect ratio of the image */
+  height: auto; /* Set the image height to its original size */
+  transform: translate(-50%, -50%); /* Center the image */
+}
+
+.cover-block__inner-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 1200px; /* Adjust as needed */
   text-align: center;
-  color: #000;
+  color: white; /* Text color */
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  overflow: hidden; /* Ensure text doesn't overflow */
+  text-overflow: ellipsis; /* Add ellipsis for overflow */
+  white-space: normal; /* Allow text to wrap */
 }
 
-.caption span.border {
-  background-color: #111;
-  color: #fff;
-  padding: 18px;
-  font-size: 25px; /* Adjust size as needed */
-  letter-spacing: 10px;
+.cover-block__inner-container:hover {
+  animation: pulse 1.5s ease-in 1 forwards; /* Pulse animation lasts for 0.5s and runs once */
 }
 
-/* Centering */
-.center {
+@keyframes pulse {
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.05);
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+/* Featured Post */
+.featured-posts-container {
+  display: flex;
+  flex-wrap: wrap; /* Ensure items wrap to the next line */
+  justify-content: space-between;
+}
+
+.featured-post {
+  position: relative;
+  flex-basis: calc(50% - 10px); /* Adjust width to fit two items per row with spacing */
+  margin-bottom: 10px; /* Increase spacing between rows */
+  margin-right: 10px; /* Add margin-right to create spacing between items */
+  height: 200px; /* Set the height of the container */
+  overflow: hidden; /* Ensure the image is cropped */
+}
+
+.featured-post img {
+  position: absolute;
+  top: 50%; /* Position the image center vertically */
+  left: 50%; /* Position the image center horizontally */
+  width: auto; /* Maintain the aspect ratio of the image */
+  height: auto; /* Set the image height to its original size */
+  transform: translate(-50%, -50%); /* Center the image */
+}
+
+.overlay-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  z-index: 1; /* Ensure the overlay is above the image */
+}
+
+.featured-post:hover .overlay-container {
+  opacity: 1;
+}
+
+.overlay-content {
+  text-align: center;
+  color: white; /* Text color */
+  padding: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+  .featured-post {
+    flex-basis: 100%; /* Change to full width on mobile */
+    margin-right: 0; /* Remove right margin for full-width items */
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones */
+  [class*=col-] {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .container .content .post-content {
+    width: 100%; /* Expand the container to fill the screen */
+  }
+}
+@media (min-width: 768px) {
+  .content, .container {
+    width: 95%;
+    margin: 0 auto;
+  }
+}
+/* Footer Styles */
+.footer {
+  background-color: var(--surface-color);
+  color: var(--on-surface-color);
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+}
+
+/* Tag List Styles */
+.tag-list {
+  list-style: none;
+  padding: 0;
+}
+
+.tag-list li {
+  margin-bottom: 10px;
+}
+
+.tag-list li a {
+  color: var(--on-background-color);
+  text-decoration: none;
+}
+
+.tag-list li a:hover {
+  text-decoration: underline;
+}
+
+/* Content Styles */
+.content {
+  padding: 25px;
+  max-width: 100%;
+}
+
+.post-content {
+  max-width: fit-content;
+}
+
+.post-content p {
+  margin-top: 10px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.content h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.img-center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
 
-/* Image Sizing */
-.widthSet {
-  max-width: 250px; /* Adjust size as needed */
-}
-
-.heightSet {
-  max-height: 150px; /* Adjust size as needed */
-}
-
-/* Columns and Rows */
-.column {
-  float: left;
-  width: 50%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Code Blocks */
-code {
-  font-size: 14px;
-}
-
-/* Posts */
-.post {
-  text-align: center;
-  margin: 0 auto;
-  max-width: 60%; /* Constrain to 80% of the screen width */
-  padding: 0 100px; /* Optional: Add padding to maintain space on left and right */
-}
-
-.post-item {
-  height: 600px; /* Set a fixed height for each post item */
-  text-align: center;
-}
-
-.post-link {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-/* Post Images */
-.post-image {
-  max-width: 100%;
-  max-height: 500px; /* Adjusted to prevent overlapping with text */
-  width: auto;
-  height: auto; /* Maintain aspect ratio */
-  margin: 0;
-  border: 5px solid #555;
-  /* Rounded corners */
-  border-radius: 8px;
-  /* Box shadow for a subtle 3D effect */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  /* Transition for smooth hover effect */
-  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-}
-
-/* Footer */
-footer {
-  padding-top: 25px;
-  text-align: center;
-  background: black;
-  padding: 15px 0;
-}
-
-/* For Small Devices */
-/* For screens smaller than 768px (typical tablets) */
-@media (max-width: 768px) {
-  /* Adjust navbar styles */
-  .navbar {
-    font-size: 16pt;
-    padding: 10px 0;
-  }
-  /* Adjust image sizes */
-  .post-image {
-    max-width: 100%;
-    max-height: 300px;
-  }
-  /* Adjust post item height */
-  .post-item {
-    height: 300px; /* Allow height to adjust based on content */
-    text-align: center;
-  }
-  /* Adjust footer padding */
-  footer {
-    padding: 10px 0;
-  }
-}
-/* For screens smaller than 576px (typical smartphones) */
-@media (max-width: 576px) {
-  /* Adjust styles for even smaller screens */
-}
-.content-container {
+/* Blank Block */
+.blank-block {
+  height: 150px;
   position: relative;
-  height: 100vh; /* Full viewport height */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #000;
-  color: #ddd;
-  padding: 50px 80px;
 }
 
-.content-centered {
-  text-align: center;
+.footer-block {
+  height: 100px;
+  position: relative;
 }
 
-/* Custom bullet points */
-ul, ol {
-  list-style: none;
+/* Parallax Styles */
+.parallax {
+  background-color: var(--background-color);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Typewriter Effect */
+.typewriter p {
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+
+.typewriter p:nth-child(2) {
+  animation-delay: 1.5s; /* Adjust delay as needed */
+}
+
+.typewriter p:nth-child(3) {
+  animation-delay: 3s; /* Adjust delay as needed */
+}
+
+.typewriter p:nth-child(4) {
+  animation-delay: 4.5s; /* Adjust delay as needed */
+}
+
+.typewriter p:nth-child(5) {
+  animation-delay: 6s; /* Adjust delay as needed */
+}
+
+.typewriter p:nth-child(6) {
+  animation-delay: 7.5s; /* Adjust delay as needed */
+}
+
+.typewriter p:nth-child(7) {
+  animation-delay: 10s; /* Adjust delay as needed */
+}
+
+.typewriter p:nth-child(8) {
+  animation-delay: 12s; /* Adjust delay as needed */
+}
+
+.typewriter p:nth-child(9) {
+  animation-delay: 13s; /* Adjust delay as needed */
+}
+
+/* Typewriter2 Effect */
+.typewriter2 p {
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+
+.typewriter2 p:nth-child(1) {
+  animation-delay: 13s; /* Adjust delay as needed */
+}
+
+.typewriter2 p:nth-child(2) {
+  animation-delay: 14s; /* Adjust delay as needed */
+}
+
+.typewriter2 p:nth-child(3) {
+  animation-delay: 15.5s; /* Adjust delay as needed */
+}
+
+.typewriter2 p:nth-child(4) {
+  animation-delay: 17s; /* Adjust delay as needed */
+}
+
+.typewriter2 p:nth-child(5) {
+  animation-delay: 18.5s; /* Adjust delay as needed */
+}
+
+.typewriter2 p:nth-child(6) {
+  animation-delay: 20s; /* Adjust delay as needed */
+}
+
+.typewriter2 p:nth-child(7) {
+  animation-delay: 21.5s; /* Adjust delay as needed */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
