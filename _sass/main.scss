@@ -113,6 +113,9 @@ img {
   text-align: center;
   color: white; /* Text color */
   background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  overflow: hidden; /* Ensure text doesn't overflow */
+  text-overflow: ellipsis; /* Add ellipsis for overflow */
+  white-space: normal; /* Allow text to wrap */
 }
 
 .cover-block__inner-container:hover {
@@ -135,20 +138,22 @@ img {
 /* Featured Post */
 .featured-posts-container {
   display: flex;
+  flex-wrap: wrap; /* Ensure items wrap to the next line */
   justify-content: space-between;
 }
 
 .featured-post {
   position: relative;
-  flex: 1;
-  margin-right: 10px; /* Adjust spacing between posts */
+  flex-basis: calc(33.333% - 10px); /* Adjust width to fit three items per row with spacing */
+  margin-bottom: 20px; /* Increase spacing between rows */
+  margin-right: 10px; /* Add margin-right to create spacing between items */
   height: 200px; /* Set the height of the container */
   overflow: hidden; /* Ensure the image is cropped */
 }
 
-.featured-post:last-child {
-  margin-right: 0; /* Remove the margin on the last item */
-}
+// .featured-post:last-child {
+//   margin-right: 0; /* Remove margin-right from the last item in each row */
+// }
 
 .featured-post img {
   position: absolute;
