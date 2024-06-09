@@ -1,32 +1,21 @@
 ---
 layout: default
+pagination:
+  enabled: true
 ---
 
 
+<div class="blank-block"></div>
 
-<div class="content">
-  <div class="container">
+
     <h1>{{ page.title }}</h1>
+    <p class="post-meta">Author: {{ page.author }}</sub>
     <p class="post-meta">Posted on {{ page.date | date: "%B %-d, %Y" }}</p>
     <div class="post-content">
       {{ content }}
     </div>
-  </div>
-</div>
+
 <!-- <img src="{{ post.image }}" alt="{{ post.title }}"> -->
 
-{% assign cat = page.categories[0] %}
-{% assign cat_list = site.categories[cat] %}
-{% for post in cat_list %}
-  {% if post.url == page.url %}
-  	{% assign pOffset = forloop.index0 | minus: 1 %}
-  	{% assign nOffset = pOffset | plus: 2 %}
-  	{% if forloop.first == false %}
-  	  {% assign next_post = cat_list[pOffset] %}
-  	{% endif %}
-  	{% if forloop.last == false %}
-  	  {% assign previous_post = cat_list[nOffset] %}
-  	{% endif %}
-  	{% break %}
-  {% endif %}
-{% endfor %}
+<div class="blank-block"></div>
+

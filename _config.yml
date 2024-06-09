@@ -15,6 +15,10 @@ color: "#000000"
 host: 0.0.0.0
 port: 4000
 
+pagination:
+  enabled: true
+  debug: false
+  permalink: '/page/:num/' 
 
 # Exclude from processing.
 # The following items will not be processed, by default.
