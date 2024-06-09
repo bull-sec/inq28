@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A Grimdark Journey VI"
-date:   2024-04-18 15:42:45 +0000
+date:   2024-04-19 15:42:45 +0000
 image: /assets/img/blanche3.jpg
 tags: grimdark inq28 3458-decima
 author: PaintsPlastic
