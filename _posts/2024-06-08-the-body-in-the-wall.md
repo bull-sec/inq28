@@ -2,7 +2,7 @@
 layout: post
 title:  "The Body in the Wall"
 date:   2024-06-08 09:00:00 +0000
-image: /assets/img/grimdark1.png
+image: /assets/img/FSPX2AaXEAEkPz7.jpg
 tags: grimdark inq28 3458-decima featured
 author: PaintsPlastic
 published: true
@@ -74,6 +74,8 @@ The man stubbed out the lo-stick and lit another, Karha tried to see the mans fa
 
 "When you say 'bent up', Karha, what exactly do you mean?"
 
+![Picture test](/assets/img/blanche1.jpg)
+
 "He was all bent and snapped m'Lord, he must have done something bad to make someone do that do him", Karha said, his curious mind fishing for some sort of clarification of his supposition. When no response came, he continued. "er, that is to say m'Lord, that the wall he was in was not big it was about like, this size".
 
 Karha made a gesture with both hands as if to estimate the rough side of the wall cavity in which the body had been found concealed in. Roughly the size of a mans head, the man noted, taking another draw on the freshly lit lo-stick.
@@ -94,6 +96,8 @@ The two men burly men forward and Karha stood to follow them, but hesitated.
 
 "m'Lord, may I ask a question?" said Karha.
 
+![picture-test](/assets/img/eisenhorn.jpg)
+
 "You may" said a voice from the shadow.
 
 "m'Lord, forgive me, but what will happen to the person what put the man in the wall?"
@@ -105,4 +109,6 @@ The man leaned forwards into the light, his thick black beard was well trimmed b
 
 
 ---
+
+Blah
 
