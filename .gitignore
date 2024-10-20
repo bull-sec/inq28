@@ -5,3 +5,6 @@
 .bundle/
 vendor/
 _drafts/
+
+# Custom file ignore
+todo.txt
