@@ -15,24 +15,6 @@ pagination:
       {{ content }}
     </div>
 
-
-  <div class="post-sidebar">
-    <h3>Other Articles</h3>
-    <ul>
-      {% for post in site.posts %}
-        {% if post.url != page.url %}
-          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-
-    <h3>Tags</h3>
-    <ul class="post-tag-list">
-      {% for tag in site.tags %}
-        <li><a href="/tags/#{{ tag[0] }}">{{ tag[0] }}</a></li>
-      {% endfor %}
-    </ul>
-  </div>
 <!-- <img src="{{ post.image }}" alt="{{ post.title }}"> -->
 
 <div class="blank-block"></div>
