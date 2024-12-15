@@ -430,63 +430,56 @@ img {
   }
 }
 
-
 /* Post Page Layout */
-.post-content {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 30px;
+.post-main-post {
+  flex: 1 1 70%; /* Take up 70% of the width */
 }
 
-.main-post {
-  width: 70%;
-}
-
-.sidebar {
-  width: 28%;
+.post-sidebar {
+  flex: 1 1 28%; /* Take up 28% of the width */
   background-color: var(--surface-color);
   padding: 15px;
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.sidebar h3 {
+.post-sidebar h3 {
   font-size: 18px;
 }
 
-.sidebar ul {
+.post-sidebar ul {
   list-style-type: none;
   padding: 0;
 }
 
-.sidebar ul li {
+.post-sidebar ul li {
   margin-bottom: 10px;
 }
 
-.sidebar ul li a {
+.post-sidebar ul li a {
   text-decoration: none;
   color: var(--primary-color);
 }
 
-.sidebar ul li a:hover {
+.post-sidebar ul li a:hover {
   text-decoration: underline;
 }
 
 /* Tag List Styles for Sidebar */
-.tag-list {
+.post-tag-list {
   list-style: none;
   padding: 0;
 }
 
-.tag-list li {
+.post-tag-list li {
   margin-bottom: 10px;
 }
 
-.tag-list li a {
+.post-tag-list li a {
   color: var(--on-background-color);
   text-decoration: none;
 }
 
-.tag-list li a:hover {
+.post-tag-list li a:hover {
   text-decoration: underline;
 }
