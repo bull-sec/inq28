@@ -8,7 +8,10 @@ Gem::Specification.new do |spec|
   spec.summary       = 'Blogging in the 41st Millenium '
   spec.homepage      = 'https://github.com/bull-sec'
   spec.license       = 'MIT'
-
+  
+  # Specify compatible Ruby version
+  spec.required_ruby_version = '>= 3.0.0'
+  
   spec.files = `git ls-files -z`.split("\x0").select do |f|
     f.match(%r{^(assets|_(includes|layouts|sass)/|(LICENSE|README)((\.(txt|md|markdown)|$)))}i)
   end
