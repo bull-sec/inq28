@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.summary       = 'Blogging in the 41st Millenium '
   spec.homepage      = 'https://github.com/bull-sec'
   spec.license       = 'MIT'
-
+  
   spec.files = `git ls-files -z`.split("\x0").select do |f|
     f.match(%r{^(assets|_(includes|layouts|sass)/|(LICENSE|README)((\.(txt|md|markdown)|$)))}i)
   end
@@ -18,4 +18,7 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'jekyll-seo-tag', '~> 2.1'
   spec.add_runtime_dependency 'jekyll-paginate'
   spec.add_runtime_dependency 'liquid_reading_time'
+  # Adding Sass dependencies for SCSS conversion
+  spec.add_runtime_dependency 'jekyll-sass-converter', '~> 2.0'
+  spec.add_runtime_dependency 'sassc', '~> 2.0'
 end
