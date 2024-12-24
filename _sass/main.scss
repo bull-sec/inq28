@@ -203,11 +203,9 @@ img {
   height: auto; /* Set the image height to its original size */
   transform: translate(-50%, -50%); /* Center the image */
 
-    /* Create the gradient fade effect */
-  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
-  mask-size: cover;
-  -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
-  -webkit-mask-size: cover;
+  /* Apply gradient to fade edges */
+  mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 85%, rgba(0, 0, 0, 0) 100%);
+  -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 85%, rgba(0, 0, 0, 0) 100%);
 }
 
 .overlay-container {
