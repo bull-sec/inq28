@@ -207,10 +207,6 @@ img {
   width: auto; /* Maintain the aspect ratio of the image */
   height: auto; /* Set the image height to its original size */
   transform: translate(-50%, -50%); /* Center the image */
-
-  /* Apply gradient to fade edges */
-  mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 85%, rgba(0, 0, 0, 0) 100%);
-  -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 85%, rgba(0, 0, 0, 0) 100%);
 }
 
 .overlay-container {
@@ -353,7 +349,7 @@ img {
   position: relative;
   width: 100%;  /* Ensure full-width */
   min-height: 100vh;  /* Adjust based on the effect you're going for */
-  background-image: url('/assets/img/wp12803541.jpg');
+  background-image: url('/assets/img/blanche4.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
