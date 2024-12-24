@@ -7,6 +7,18 @@
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
 <link rel=stylesheet href="/assets/css/styles.css"></link>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+{%- if page.url == '/archive' -%}
+<script src="/assets/js/search.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var sjs = SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('search-results'),
+    json: '/assets/search.json',
+  });
+});
+</script>
+{%- endif -%}
 </head>
 <body>
 {% include navigation.html %}
@@ -22,6 +34,8 @@
   <!-- Parallax section after the content -->
   <div class="parallax">
   </div>
+  
+  
 
 </body>
 </html>

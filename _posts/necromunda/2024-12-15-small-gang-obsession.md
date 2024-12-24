@@ -7,8 +7,3 @@ tags: mordheim necromunda killteam featured
 author: PaintsPlastic
 published: true
 ---
-
-It's taken me a while, but I've nailed down the thing I love most in this hobby.
-
-
-fish fish fish fish fish

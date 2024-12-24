@@ -6,8 +6,16 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
 <link rel=stylesheet href="/assets/css/styles.css"></link>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
+<meta name="viewport" content="width=device-width, initial-scale=1"><script src="/assets/js/search.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var sjs = SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('search-results'),
+    json: '/assets/search.json',
+  });
+});
+</script></head>
 <body>
 <nav class="navbar">
     <div class="container">
@@ -27,201 +35,61 @@
 <div class="content">
   <div class="container">
     <!-- <h1>=][=</h1> -->
-    <p><h1 style="text-align: center;">++ ARCHIVE ++</h1>
-
-<div class="blank-block" style="text-align: center;" ></div>
-<div class="container">
-<h2 style="margin-bottom: 10px;">All Tags</h2>
-
-<a href="/tags/test"><h3 id="test">test</h3></a>
-
-<a href="/tags/featured"><h3 id="featured">featured</h3></a>
-
-<a href="/tags/nurgle"><h3 id="nurgle">nurgle</h3></a>
-
-<a href="/tags/mordheim"><h3 id="mordheim">mordheim</h3></a>
-
-<a href="/tags/necromunda"><h3 id="necromunda">necromunda</h3></a>
-
-<a href="/tags/killteam"><h3 id="killteam">killteam</h3></a>
-
+    <p><div class="blank-block"></div> 
+<div class="container" style="text-align: center;">
+<div class="search-article" style="text-align: left;">
+  <label for="search-input" aria-hidden="true">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="rgba(128,128,128,0.8)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+  </label>
+  <input type="search" id="search-input" placeholder="Archive Search: " aria-label="Search">
 </div>
 
-<div class="blank-block"></div>
+<h2>Search Results:</h2>
+<br>
+<p id="search-results"></p>
 
-<div class="container">
-<h2 style="margin-bottom: 10px;">All Posts by Date</h2>
-
-<article>
-  <h3 style="margin-top: 10px;">
-    <a href="/2024/06/09/test-post-1/">
-      Placeholder: I
-    </a>
-  </h3>
-  <time datetime="2024-06-09">09 June 2024</time>
-  <p><p>“In the grim darkness of the 41st Millennium, there is only war”</p>
-</p>
-  Tags:
-  
-  <a href="/tags/test">test, </a>
-  
-  <a href="/tags/featured">featured, </a>
-  
-</article>
-
-<article>
-  <h3 style="margin-top: 10px;">
-    <a href="/2024/06/09/small-gang-obsession/">
-      Small Gang Obsession
-    </a>
-  </h3>
-  <time datetime="2024-06-09">09 June 2024</time>
-  <p><p>It’s taken me a while, but I’ve nailed down the thing I love most in this hobby.</p>
-</p>
-  Tags:
-  
-  <a href="/tags/mordheim">mordheim, </a>
-  
-  <a href="/tags/necromunda">necromunda, </a>
-  
-  <a href="/tags/killteam">killteam, </a>
-  
-  <a href="/tags/featured">featured, </a>
-  
-</article>
-
-<article>
-  <h3 style="margin-top: 10px;">
-    <a href="/test/2024/06/09/test-post-2/">
-      Placeholder: II
-    </a>
-  </h3>
-  <time datetime="2024-06-09">09 June 2024</time>
-  <p><p>“In the grim darkness of the 41st Millennium, there is only war”</p>
-</p>
-  Tags:
-  
-  <a href="/tags/test">test, </a>
-  
-  <a href="/tags/featured">featured, </a>
-  
-  <a href="/tags/nurgle">nurgle, </a>
-  
-</article>
-
-<article>
-  <h3 style="margin-top: 10px;">
-    <a href="/2024/06/09/test-post-3/">
-      Placeholder: III
-    </a>
-  </h3>
-  <time datetime="2024-06-09">09 June 2024</time>
-  <p><p>“In the grim darkness of the 41st Millennium, there is only war”</p>
-</p>
-  Tags:
-  
-  <a href="/tags/test">test, </a>
-  
-</article>
-
-<article>
-  <h3 style="margin-top: 10px;">
-    <a href="/2024/06/09/test-post-4/">
-      Placeholder: IV
-    </a>
-  </h3>
-  <time datetime="2024-06-09">09 June 2024</time>
-  <p><p>“In the grim darkness of the 41st Millennium, there is only war”</p>
-</p>
-  Tags:
-  
-  <a href="/tags/test">test, </a>
-  
-</article>
-
-<article>
-  <h3 style="margin-top: 10px;">
-    <a href="/2024/06/09/test-post-5/">
-      Placeholder: V
-    </a>
-  </h3>
-  <time datetime="2024-06-09">09 June 2024</time>
-  <p><p>“In the grim darkness of the 41st Millennium, there is only war”</p>
-</p>
-  Tags:
-  
-  <a href="/tags/test">test, </a>
-  
-  <a href="/tags/featured">featured, </a>
-  
-</article>
-
-<article>
-  <h3 style="margin-top: 10px;">
-    <a href="/2024/06/09/test-post-6/">
-      Placeholder: XI
-    </a>
-  </h3>
-  <time datetime="2024-06-09">09 June 2024</time>
-  <p><p>“In the grim darkness of the 41st Millennium, there is only war”</p>
-</p>
-  Tags:
-  
-  <a href="/tags/test">test, </a>
-  
-</article>
-
-<article>
-  <h3 style="margin-top: 10px;">
-    <a href="/2024/06/09/test-post-7/">
-      Placeholder: VII
-    </a>
-  </h3>
-  <time datetime="2024-06-09">09 June 2024</time>
-  <p><p>“In the grim darkness of the 41st Millennium, there is only war”</p>
-</p>
-  Tags:
-  
-  <a href="/tags/test">test, </a>
-  
-</article>
-
-<article>
-  <h3 style="margin-top: 10px;">
-    <a href="/2024/06/09/test-post-8/">
-      Placeholder: VIII
-    </a>
-  </h3>
-  <time datetime="2024-06-09">09 June 2024</time>
-  <p><p>“In the grim darkness of the 41st Millennium, there is only war”</p>
-</p>
-  Tags:
-  
-  <a href="/tags/test">test, </a>
-  
-  <a href="/tags/featured">featured, </a>
-  
-</article>
-
-<article>
-  <h3 style="margin-top: 10px;">
-    <a href="/2024/06/09/test-post-9/">
-      Placeholder: IX
-    </a>
-  </h3>
-  <time datetime="2024-06-09">09 June 2024</time>
-  <p><p>“In the grim darkness of the 41st Millennium, there is only war”</p>
-</p>
-  Tags:
-  
-  <a href="/tags/test">test, </a>
-  
-  <a href="/tags/featured">featured, </a>
-  
-</article>
-
-</div>
-
+<div class="blank-block"></div><h2>2024</h2>
+    <br><article class="post-item">
+    <h3 class="post-item-title">
+      <a href="/2024/06/09/test-post-1/">Placeholder: I</a>
+    </h3> 
+  </article><article class="post-item">
+    <h3 class="post-item-title">
+      <a href="/2024/06/09/small-gang-obsession/">Small Gang Obsession</a>
+    </h3> 
+  </article><article class="post-item">
+    <h3 class="post-item-title">
+      <a href="/test/2024/06/09/test-post-2/">Placeholder: II</a>
+    </h3> 
+  </article><article class="post-item">
+    <h3 class="post-item-title">
+      <a href="/2024/06/09/test-post-3/">Placeholder: III</a>
+    </h3> 
+  </article><article class="post-item">
+    <h3 class="post-item-title">
+      <a href="/2024/06/09/test-post-4/">Placeholder: IV</a>
+    </h3> 
+  </article><article class="post-item">
+    <h3 class="post-item-title">
+      <a href="/2024/06/09/test-post-5/">Placeholder: V</a>
+    </h3> 
+  </article><article class="post-item">
+    <h3 class="post-item-title">
+      <a href="/2024/06/09/test-post-6/">Placeholder: XI</a>
+    </h3> 
+  </article><article class="post-item">
+    <h3 class="post-item-title">
+      <a href="/2024/06/09/test-post-7/">Placeholder: VII</a>
+    </h3> 
+  </article><article class="post-item">
+    <h3 class="post-item-title">
+      <a href="/2024/06/09/test-post-8/">Placeholder: VIII</a>
+    </h3> 
+  </article><article class="post-item">
+    <h3 class="post-item-title">
+      <a href="/2024/06/09/test-post-9/">Placeholder: IX</a>
+    </h3> 
+  </article></div>
 <div class="blank-block"></div></p>
     <div style="text-align: center;">
 
@@ -240,6 +108,8 @@
   <!-- Parallax section after the content -->
   <div class="parallax">
   </div>
+  
+  
 
 </body>
 </html>

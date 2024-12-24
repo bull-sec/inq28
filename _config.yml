@@ -19,6 +19,7 @@ permalink: /:categories/:year/:month/:day/:title/
 
 pagination:
   enabled: true
+  paginate: 5
   debug: false
   
  
