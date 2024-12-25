@@ -114,7 +114,7 @@ img { width: 100%; height: auto; border-radius: 10px; }
 .footer-block { height: 100px; position: relative; }
 
 /* Parallax Styles */
-.parallax { position: relative; width: 100%; /* Ensure full-width */ min-height: 100vh; /* Adjust based on the effect you're going for */ background-image: url("/assets/img/blanche4.png"); background-position: center; background-repeat: no-repeat; background-size: cover; background-attachment: fixed; /* This ensures the parallax effect */ z-index: -1; /* Push the parallax image behind content */ }
+.parallax { position: relative; width: 100%; /* Ensure full-width */ min-height: 100vh; /* Adjust based on the effect you're going for */ background-image: url("/assets/img/unclean.png"); background-position: center; background-repeat: no-repeat; background-size: cover; background-attachment: fixed; /* This ensures the parallax effect */ z-index: -1; /* Push the parallax image behind content */ }
 
 .parallax img { width: 100%; height: 100%; display: none; /* Hide the <img> since it's now a background */ }
 
