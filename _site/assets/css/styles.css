@@ -173,4 +173,18 @@ img { width: 100%; height: auto; border-radius: 10px; }
 
 .archive-tags .tag-item { padding: 1px 3px; border-radius: 2px; border: 1px solid rgba(128, 128, 128, 0.1); background-color: rgba(128, 128, 128, 0.1); }
 
+.promoted { color: #fff; text-align: center; margin-bottom: 2rem; position: relative; }
+
+.promoted-image-wrapper { position: relative; width: 100vw; height: 100vh; /* Adjust height as needed */ overflow: hidden; }
+
+.promoted-image { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); min-width: 100%; min-height: 100%; height: auto; width: auto; }
+
+.promoted-content { max-width: 100%; margin: 0 auto; padding: 3rem; position: relative; z-index: 1; }
+
+.promoted-title { font-size: 2.5rem; font-weight: bold; margin-bottom: 1rem; }
+
+.promoted-description { font-size: 1.25rem; margin-bottom: 2rem; line-height: 1.6; }
+
+.promoted-cta { display: inline-block; font-size: 1rem; font-weight: bold; text-transform: uppercase; border-radius: 4px; text-decoration: none; transition: background-color 0.3s, color 0.3s; }
+
 /*# sourceMappingURL=styles.css.map */
