@@ -179,7 +179,7 @@ img { width: 100%; height: auto; border-radius: 10px; }
 
 .promoted-image { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); min-width: 100%; min-height: 100%; height: auto; width: auto; }
 
-.promoted-content { max-width: 100%; margin: 0 auto; padding: 3rem; position: relative; z-index: 1; }
+.promoted-content { max-width: 100%; position: relative; }
 
 .promoted-title { font-size: 2.5rem; font-weight: bold; margin-bottom: 1rem; }
 
