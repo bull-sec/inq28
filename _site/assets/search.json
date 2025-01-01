@@ -1,18 +1,26 @@
 [
   
     {
+      "title"    : "2025 To Do List",
+      "description" : "",
+      "tags"     : "",
+      "url"      : "/2024/12/24/2025-to-do-list/",
+      "date"     : "2024-12-24 00:00:00 -0600"
+    } ,
+  
+    {
+      "title"    : "2025 Welcome",
+      "description" : "",
+      "tags"     : "",
+      "url"      : "/2024/12/21/2025-welcome/",
+      "date"     : "2024-12-21 00:00:00 -0600"
+    } ,
+  
+    {
       "title"    : "Placeholder: I",
       "description" : "",
       "tags"     : "test, featured",
       "url"      : "/2024/06/09/test-post-1/",
-      "date"     : "2024-06-09 07:06:00 -0500"
-    } ,
-  
-    {
-      "title"    : "Small Gang Obsession",
-      "description" : "",
-      "tags"     : "mordheim, necromunda, killteam, featured, promoted",
-      "url"      : "/2024/06/09/small-gang-obsession/",
       "date"     : "2024-06-09 07:06:00 -0500"
     } ,
   
@@ -27,7 +35,7 @@
     {
       "title"    : "Placeholder: III",
       "description" : "",
-      "tags"     : "test",
+      "tags"     : "test, featured",
       "url"      : "/2024/06/09/test-post-3/",
       "date"     : "2024-06-09 07:04:00 -0500"
     } ,
@@ -35,7 +43,7 @@
     {
       "title"    : "Placeholder: IV",
       "description" : "",
-      "tags"     : "test",
+      "tags"     : "test, featured",
       "url"      : "/2024/06/09/test-post-4/",
       "date"     : "2024-06-09 07:03:00 -0500"
     } ,
@@ -43,7 +51,7 @@
     {
       "title"    : "Placeholder: V",
       "description" : "",
-      "tags"     : "test",
+      "tags"     : "test, featured",
       "url"      : "/2024/06/09/test-post-5/",
       "date"     : "2024-06-09 07:02:00 -0500"
     } ,
@@ -51,7 +59,7 @@
     {
       "title"    : "Placeholder: XI",
       "description" : "",
-      "tags"     : "test",
+      "tags"     : "test, featured",
       "url"      : "/2024/06/09/test-post-6/",
       "date"     : "2024-06-09 07:01:00 -0500"
     } ,
@@ -75,7 +83,7 @@
     {
       "title"    : "Placeholder: IX",
       "description" : "",
-      "tags"     : "test, featured",
+      "tags"     : "test",
       "url"      : "/2024/06/09/test-post-9/",
       "date"     : "2024-06-09 06:58:00 -0500"
     } 
