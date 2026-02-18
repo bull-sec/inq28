@@ -20,3 +20,35 @@ To cut a long and tedious story short, I eventually picked up a whole deathguard
 
 ---
 
+The full army list is now as follows:
+
+### Characters:
+- Typhus
+- Chaos Lord in Terminator Armor
+- Biologus Putrifier
+- Lord of Contagion
+- Banner Bearer
+
+### Battleline:
+- 21 Plague Marines (3x7)
+
+### Other Datasheets:
+- 30 Pox Walkers
+- 10 Culists
+- 3 Myphitic Blight-Hauler
+- 1 Foetid Bloat Drone
+- 1 Predator Annihilator
+- 1 Plague Burst Crawler
+
+### Dedicated Transports:
+- 2 Rhinos
+
+### Allied Units
+- 1 War Dog Karnivore
+- 2 War Dog Brigand
+- 18 Nurglings :D
+- 10 Plague Bearers
+
+
+
+Time as always is the greatest enemy of the miniature hobbyist, and life conspired against me in 2024 to make sure I had as little free time as possible. But I managed to get most of the minis assembled, and then during the Christmas break I finished the assembly and got all of the infantry primed.
