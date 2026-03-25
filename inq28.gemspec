@@ -27,4 +27,5 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'csv'
   spec.add_runtime_dependency 'logger'
   spec.add_runtime_dependency 'base64'
+  spec.add_runtime_dependency 'bigdecimal'
 end
