@@ -28,45 +28,195 @@
     <!-- <h1>=][=</h1> -->
     <p><!-- <div class="promoted-content">
     
-  
-<div class="blank-block"></div> -->
-<p style="display: none;"></p>
-<div class="featured-posts-container">
+   -->
+
+
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+<div class="swiper featured-swiper">
+  <div class="swiper-wrapper">
+
     
-        <div class="featured-post">
-          <a href="/2025/01/01/ferrofractor-cartel-pt1/">
-            <img src="/assets/img/krieg.jpg" alt="Ferrofractor Cartel: Part 1">
-            <div class="overlay">
-                <div class="cover-block__inner-container">
-                    <h3>Ferrofractor Cartel: Part 1</h3>
-                </div>
-              </a>
-            </div>
-        </div>
+      <div class="swiper-slide">
+        <a href="/2025/01/01/2025-welcome/" class="featured-post">
+
+          <img
+            src="/assets/img/krieg.jpg"
+            alt="Welcome!"
+            loading="lazy"
+          >
+
+          <div class="overlay">
+            <h3>Welcome!</h3>
+          </div>
+
+        </a>
+      </div>
     
-        <div class="featured-post">
-          <a href="/2025/01/01/2025-welcome/">
-            <img src="/assets/img/krieg.jpg" alt="Welcome!">
-            <div class="overlay">
-                <div class="cover-block__inner-container">
-                    <h3>Welcome!</h3>
-                </div>
-              </a>
-            </div>
-        </div>
+      <div class="swiper-slide">
+        <a href="/2025/01/01/ferrofractor-cartel-pt1/" class="featured-post">
+
+          <img
+            src="/assets/img/krieg.jpg"
+            alt="Ferrofractor Cartel: Part 1"
+            loading="lazy"
+          >
+
+          <div class="overlay">
+            <h3>Ferrofractor Cartel: Part 1</h3>
+          </div>
+
+        </a>
+      </div>
     
-        <div class="featured-post">
-          <a href="/2024/06/09/2025-to-do-list/">
-            <img src="/assets/img/background.jpg" alt="Placeholder: I">
-            <div class="overlay">
-                <div class="cover-block__inner-container">
-                    <h3>Placeholder: I</h3>
-                </div>
-              </a>
-            </div>
-        </div>
+      <div class="swiper-slide">
+        <a href="/2024/06/09/2025-to-do-list/" class="featured-post">
+
+          <img
+            src="/assets/img/background.jpg"
+            alt="Placeholder: I"
+            loading="lazy"
+          >
+
+          <div class="overlay">
+            <h3>Placeholder: I</h3>
+          </div>
+
+        </a>
+      </div>
     
+      <div class="swiper-slide">
+        <a href="/2024/06/09/drukhari/" class="featured-post">
+
+          <img
+            src="/assets/img/background.jpg"
+            alt="Drukhari: I"
+            loading="lazy"
+          >
+
+          <div class="overlay">
+            <h3>Drukhari: I</h3>
+          </div>
+
+        </a>
+      </div>
+    
+
+  </div>
+
+  <div class="swiper-pagination"></div>
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  new Swiper('.featured-swiper', {
+
+    slidesPerView: 1,
+    spaceBetween: 16,
+    grabCursor: true,
+
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+
+    breakpoints: {
+      640: {
+        slidesPerView: 1
+      },
+      1024: {
+        slidesPerView: 1
+      }
+    }
+
+  });
+
+});
+</script>
+
+<style>
+
+.featured-swiper {
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+.swiper-slide {
+  height: auto;
+}
+
+.featured-post {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.featured-post img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: flex-end;
+  padding: 1rem;
+  background: linear-gradient(
+    to top,
+    rgba(0,0,0,0.65),
+    rgba(0,0,0,0.05)
+  );
+}
+
+.overlay h3 {
+  margin: 0;
+  color: white;
+  font-size: 1.05rem;
+
+  /* navigation arrows */
+.swiper-button-prev,
+.swiper-button-next {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+
+  background: rgba(0,0,0,0.35);
+  border: 1px solid rgba(255,255,255,0.6);
+
+  backdrop-filter: blur(4px);
+
+  color: white;
+}
+
+/* arrow icon size */
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 16px;
+}
+
+/* hover effect */
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  border-color: white;
+  background: rgba(0,0,0,0.55);
+}
+}
+
+</style>
+
+<div class="blank-block"></div>
+<p style="display: none;"></p>
+
 
 <div class="blank-block"></div>
 
@@ -81,18 +231,8 @@
 
 <div class="blank-block"></div>
 
-<!-- <h2 style="text-align: center; margin-bottom: 5px;">++ LATEST ++</h2> -->
 
-<div class="cover-block">
-  <a href="/2025/01/01/ferrofractor-cartel-pt1/">
-    <img src="/assets/img/krieg.jpg" alt="Cover Image" class="cover-image">
-    <div class="cover-block__inner-container">
-      <div class="layout-flow">
-        <h2 href="/2025/01/01/ferrofractor-cartel-pt1/">Ferrofractor Cartel: Part 1</h2>
-      </div>
-    </div>
-    </a>
-  </div>
+<!-- <h2 style="text-align: center; margin-bottom: 5px;">++ LATEST ++</h2> -->
 
 <div class="cover-block">
   <a href="/2025/01/01/2025-welcome/">
@@ -100,6 +240,17 @@
     <div class="cover-block__inner-container">
       <div class="layout-flow">
         <h2 href="/2025/01/01/2025-welcome/">Welcome!</h2>
+      </div>
+    </div>
+    </a>
+  </div>
+
+<div class="cover-block">
+  <a href="/2025/01/01/ferrofractor-cartel-pt1/">
+    <img src="/assets/img/krieg.jpg" alt="Cover Image" class="cover-image">
+    <div class="cover-block__inner-container">
+      <div class="layout-flow">
+        <h2 href="/2025/01/01/ferrofractor-cartel-pt1/">Ferrofractor Cartel: Part 1</h2>
       </div>
     </div>
     </a>
@@ -116,20 +267,79 @@
     </a>
   </div>
 
+<div class="cover-block">
+  <a href="/2024/06/09/drukhari/">
+    <img src="/assets/img/background.jpg" alt="Cover Image" class="cover-image">
+    <div class="cover-block__inner-container">
+      <div class="layout-flow">
+        <h2 href="/2024/06/09/drukhari/">Drukhari: I</h2>
+      </div>
+    </div>
+    </a>
+  </div>
+
  
 <div class="blank-block"></div>
 
-<!-- <h1 style="text-align: center; margin-bottom: 5px;">=][=</h1>
+<div class="featured-posts-container">
+    
+        <div class="featured-post">
+          <a href="/2025/01/01/2025-welcome/">
+            <img src="/assets/img/krieg.jpg" alt="Welcome!">
+            <div class="overlay">
+                <div class="cover-block__inner-container">
+                    <h3>Welcome!</h3>
+                </div>
+              </a>
+            </div>
+        </div>
+    
+        <div class="featured-post">
+          <a href="/2025/01/01/ferrofractor-cartel-pt1/">
+            <img src="/assets/img/krieg.jpg" alt="Ferrofractor Cartel: Part 1">
+            <div class="overlay">
+                <div class="cover-block__inner-container">
+                    <h3>Ferrofractor Cartel: Part 1</h3>
+                </div>
+              </a>
+            </div>
+        </div>
+    
+        <div class="featured-post">
+          <a href="/2024/06/09/2025-to-do-list/">
+            <img src="/assets/img/background.jpg" alt="Placeholder: I">
+            <div class="overlay">
+                <div class="cover-block__inner-container">
+                    <h3>Placeholder: I</h3>
+                </div>
+              </a>
+            </div>
+        </div>
+    
+        <div class="featured-post">
+          <a href="/2024/06/09/drukhari/">
+            <img src="/assets/img/background.jpg" alt="Drukhari: I">
+            <div class="overlay">
+                <div class="cover-block__inner-container">
+                    <h3>Drukhari: I</h3>
+                </div>
+              </a>
+            </div>
+        </div>
+    
+</div>
 
-<div class="blank-block"></div> -->
+<div class="blank-block"></div>
+
+<h1 style="text-align: center; margin-bottom: 5px;">=][=</h1>
+
+<div class="blank-block"></div>
 </p>
     <div style="text-align: center;">
 
     <footer>
       <br>
-      <i>&copy; 2024 =][=</i><p></p>
-      <i>This site is completely unofficial and is in no way endorsed by Games Workshop.</i><p></p>
-      <i>&copy; Copyright Games Workshop Limited 2024. GW, Games Workshop, Citadel, White Dwarf, Space Marine, 40K, Warhammer, Warhammer 40,000, the ‘Aquila’ Double-headed Eagle logo, Warhammer Age of Sigmar, Battletome, Stormcast Eternals, and all associated logos, illustrations, images, names, creatures, races, vehicles, locations, weapons, characters, and the distinctive likenesses thereof, are either ® or ™, and/or © Games Workshop Limited, variably registered around the world. All Rights Reserved. </i>
+      <i>&copy; 2026 =][=</i><p></p>
     </footer>
   </div>
 
