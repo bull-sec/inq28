@@ -1,0 +1,72 @@
+---
+layout: default
+---
+
+<div class="blog-container">
+
+  <h1>{{ page.title }}</h1>
+
+  {% for post in paginator.posts %}
+
+    <article class="blog-card">
+
+      {% if post.image %}
+      <a href="{{ post.url }}">
+        <img src="{{ post.image }}" alt="{{ post.title }}">
+      </a>
+      {% endif %}
+
+      <div class="blog-content">
+
+        <h2>
+          <a href="{{ post.url }}">
+            {{ post.title }}
+          </a>
+        </h2>
+
+        <div class="blog-meta">
+
+          {{ post.date | date: "%d %B %Y" }}
+
+          {% if post.tags %}
+          •
+          {{ post.tags | join: ", " }}
+          {% endif %}
+
+        </div>
+
+        <p>
+
+          {{ post.excerpt | strip_html | truncate: 180 }}
+
+        </p>
+
+        <a class="read-more" href="{{ post.url }}">
+          Read more →
+        </a>
+
+      </div>
+
+    </article>
+
+  {% endfor %}
+
+
+  <!-- pagination -->
+  <div class="pagination">
+
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}">
+        ← Newer
+      </a>
+    {% endif %}
+
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}">
+        Older →
+      </a>
+    {% endif %}
+
+  </div>
+
+</div>
