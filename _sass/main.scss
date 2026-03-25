@@ -63,7 +63,7 @@ img {
   padding: 10px 20px; /* Increase padding to create some space */
   width: 100%; /* Occupy full width */
   box-sizing: border-box; /* Ensure padding is included in the width */
-  position:sticky;
+  position:fixed;
   top: 0;
   z-index: 1000; 
 }
@@ -257,7 +257,7 @@ img {
   flex-basis: calc(50% - 10px); /* Adjust width to fit two items per row with spacing */
   margin-bottom: 10px; /* Increase spacing between rows */
   margin-right: 10px; /* Add margin-right to create spacing between items */
-  height: 350px; /* Set the height of the container */
+  height: 200px; /* Set the height of the container */
   overflow: hidden; /* Ensure the image is cropped */
 }
 
@@ -422,7 +422,7 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;  /* This ensures the parallax effect */
-  z-index: 0;  /* Push the parallax image behind content */
+  // z-index: 0;  /* Push the parallax image behind content */
 }
 
 .parallax img {
