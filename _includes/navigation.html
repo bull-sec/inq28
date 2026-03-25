@@ -1,27 +1,21 @@
-<!-- <nav class="navbar">
-    <div class="container">
-      <div class="navbar-brand">
-        <a href="{{ site.url }}">{{ site.title }}</a>
-      </div>
-      <div class="navbar-links">
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/archive">Archive</a></li>
-          <li><a href="/feed.xml">RSS</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav> -->
-
-  <nav class="navbar">
-  <div class="container navbar-container">
+<nav class="navbar">
+  <div class="container">
     <div class="navbar-brand">
-      {{ site.title }}
+      <a href="{{ site.url }}">{{ site.title }}</a>
     </div>
     <div class="navbar-links">
       <ul>
         <li><a href="/">Home</a></li>
         <li><a href="/archive">Archive</a></li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">Projects</a>
+          <div class="dropdown-content">
+            <a href="#">The Expiators</a>
+            <a href="#">Ferrifractor Cartel</a>
+            <a href="#">Flesh Eater Courts</a>
+            <!-- <a href="#">Link 3</a> -->
+          </div>
+        </li>
         <li><a href="/about">About</a></li>
         <li><a href="/contact">Contact</a></li>
       </ul>
