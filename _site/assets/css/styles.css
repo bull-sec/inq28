@@ -42,11 +42,9 @@ img { width: 100%; height: auto; border-radius: 10px; }
 
 .navbar a:hover, .dropdown:hover .dropbtn { background-color: red; }
 
-.dropdown-content { display: none; position: absolute; background-color: #f9f9f9; min-width: 160px; box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); z-index: 1; }
+.dropdown-content { display: none; position: absolute; min-width: 160px; box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); z-index: 1; }
 
 .dropdown-content a { float: none; color: black; padding: 12px 16px; text-decoration: none; display: block; text-align: left; }
-
-.dropdown-content a:hover { background-color: #ddd; }
 
 .dropdown:hover .dropdown-content { display: block; }
 
@@ -314,5 +312,45 @@ li.dropdown { float: none; /* previously it was float: left */ }
 .jumbotron h1 { margin-bottom: 10px; }
 
 .jumbotron p { opacity: 0.9; }
+
+.blog-page { padding: 30px 20px; }
+
+/* Wrapper for posts + sidebar */
+.blog-content-wrapper { display: flex; gap: 30px; flex-wrap: wrap; /* stack on mobile */ }
+
+/* Main posts column */
+.blog-posts { flex: 3; min-width: 300px; }
+
+/* Sidebar */
+.blog-sidebar { flex: 1; min-width: 220px; }
+
+/* Post item styling */
+.post-item { margin-bottom: 30px; padding-left: 10px; border-left: 3px solid rgba(128, 128, 128, 0.3); transition: border-color 0.3s ease, border-width 0.3s ease; }
+
+.post-item-title a { color: #fff; text-decoration: none; font-weight: 500; transition: color 0.3s ease; }
+
+.post-item-excerpt { color: rgba(255, 255, 255, 0.8); margin-top: 5px; font-size: 0.95rem; }
+
+/* Hover effect for post item */
+.post-item:hover { border-left-width: 8px; border-color: #9a022e !important; }
+
+.post-item:hover .post-item-title a { color: #9a022e; }
+
+/* Sidebar styling */
+.blog-sidebar { background-color: var(--surface-color); padding: 20px; border-radius: 5px; }
+
+.blog-sidebar h3 { margin-top: 0; margin-bottom: 10px; font-size: 1.25rem; }
+
+.blog-sidebar .tag-item { display: inline-block; padding: 3px 6px; margin: 3px; background-color: rgba(128, 128, 128, 0.1); border-radius: 3px; }
+
+.blog-sidebar .tag-item a { color: #fff; text-decoration: none; }
+
+.blog-sidebar .tag-item a:hover { color: #9a022e; }
+
+/* Search input */
+.search-article input[type="search"] { width: 100%; padding: 8px 12px; border-radius: 5px; background-color: rgba(128, 128, 128, 0.1); border: 1px solid rgba(128, 128, 128, 0.1); color: #fff; }
+
+/* Mobile responsiveness */
+@media (max-width: 768px) { .blog-content-wrapper { flex-direction: column; } .blog-sidebar { margin-top: 20px; } }
 
 /*# sourceMappingURL=styles.css.map */
