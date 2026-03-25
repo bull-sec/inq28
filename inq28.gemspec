@@ -22,4 +22,8 @@ Gem::Specification.new do |spec|
   # Adding Sass dependencies for SCSS conversion
   spec.add_runtime_dependency 'jekyll-sass-converter', '~> 2.0'
   spec.add_runtime_dependency 'sassc', '~> 2.0'
+
+  # Ruby 3.4 stdlib gems no longer bundled
+  spec.add_runtime_dependency 'csv'
+  spec.add_runtime_dependency 'logger'
 end
