@@ -517,53 +517,174 @@ img {
     opacity: 1;
   }
 }
+/* -------------------- Archive Page -------------------- */
 
-// testing something
+/* Year headers */
+.archive-year {
+  margin-top: 40px;
+  margin-bottom: 15px;
+  font-size: 1.75rem;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  padding-bottom: 5px;
+}
+
+/* Post items */
+.post-item {
+  position: relative;
+  margin-bottom: 15px;
+  padding-left: 10px; /* space for the hover bar */
+  border-left: 3px solid rgba(128, 128, 128, 0.3); /* initial small bar */
+  transition: border-color 0.3s ease, border-width 0.3s ease;
+}
+
+.post-item-title a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.post-item-excerpt {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.4s ease, opacity 0.4s ease;
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 5px;
+  font-size: 0.9rem;
+}
+
+.post-item:hover {
+  border-left-width: 8px; /* widen the hover bar */
+  border-color: #9a022e !important; /* match your site accent */
+}
+
+.post-item:hover .post-item-excerpt {
+  max-height: 100px; /* enough to show text */
+  opacity: 1;
+}
+
+.post-item:hover .post-item-title a {
+  color: #9a022e; /* optional hover color for title */
+}
+
+/* ---------- Archive Page Search Styles ---------- */
 .search-article {
   position: relative;
   margin-bottom: 50px;
-
-  label[for="search-input"] {
-    position: relative;
-    top: 10px;
-    left: 11px;
-  }
-
-  input[type="search"] {
-    top: 0;
-    left: 0;
-    border: 0;
-    width: 100%;
-    height: 40px;
-    outline: none;
-    color:#fff;
-    position: absolute;
-    border-radius: 5px;
-    padding: 10px 10px 10px 35px;
-    -webkit-appearance: none;
-    background-color: rgba(128, 128, 128, 0.1);
-    border: 1px solid rgba(128, 128, 128, 0.1);
-    &::-webkit-input-placeholder {
-      color: #808080;
-    }
-    &::-webkit-search-decoration,
-    &::-webkit-search-results-decoration {
-      display: none;
-    }
-  }
 }
 
+.search-article label[for="search-input"] {
+  position: relative;
+  top: 10px;
+  left: 11px;
+}
+
+.search-article input[type="search"] {
+  top: 0;
+  left: 0;
+  border: 0;
+  width: 100%;
+  height: 40px;
+  outline: none;
+  color: #fff;
+  position: absolute;
+  border-radius: 5px;
+  padding: 10px 10px 10px 35px;
+  -webkit-appearance: none;
+  background-color: rgba(128, 128, 128, 0.1);
+  border: 1px solid rgba(128, 128, 128, 0.1);
+}
+
+.search-article input[type="search"]::-webkit-input-placeholder {
+  color: #808080;
+}
+
+.search-article input[type="search"]::-webkit-search-decoration,
+.search-article input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+/* Search results container */
 #search-results {
   text-align: center;
 }
 
+/* ---------- Individual search result items ---------- */
+#search-results a {
+  display: block;
+  opacity: 0;
+  transform: translateY(-5px); /* slight upward start */
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  margin-bottom: 8px;
+  color: var(--on-background-color);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255,255,255,0.1); /* optional subtle bar */
+  padding-bottom: 4px;
+}
+
+#search-results a:hover {
+  color: #9a022e;
+  text-decoration: underline;
+  border-bottom-width: 2px; /* widen bar on hover */
+}
+
+/* Fade in when results exist */
+#search-results:not(:empty) a {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+// /* Optional: staggered fade-in effect */
+// #search-results a:nth-child(1) { transition-delay: 0s !important; }
+// #search-results a:nth-child(2) { transition-delay: 0.1s !important; }
+// #search-results a:nth-child(3) { transition-delay: 0.2s !important; }
+// #search-results a:nth-child(4) { transition-delay: 0.3s !important; }
+// #search-results a:nth-child(5) { transition-delay: 0.4s !important; }
+// /* add more if you expect more results */
+
+/* Archive Tags */
 .archive-tags {
   height: auto;
-  .tag-item {
-    padding: 1px 3px;
-    border-radius: 2px;
-    border: 1px solid rgba(128, 128, 128, 0.1);
-    background-color: rgba(128, 128, 128, 0.1);
+}
+
+.archive-tags .tag-item {
+  padding: 1px 3px;
+  border-radius: 2px;
+  border: 1px solid rgba(128, 128, 128, 0.1);
+  background-color: rgba(128, 128, 128, 0.1);
+  margin-right: 5px;
+  display: inline-block;
+}
+
+/* ---------- Archive Page Two Columns ---------- */
+.archive-container {
+  display: flex;
+  flex-wrap: wrap; /* wrap on small screens */
+  gap: 40px; /* space between columns */
+  margin-bottom: 40px;
+}
+
+/* Left column: posts */
+.archive-posts {
+  flex: 1 1 60%; /* take ~60% of width on desktop */
+  min-width: 280px; /* fallback for small screens */
+}
+
+/* Right column: search */
+.archive-search {
+  flex: 1 1 35%; /* take ~35% of width on desktop */
+  min-width: 220px; /* fallback for small screens */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .archive-container {
+    flex-direction: column;
+  }
+  .archive-posts,
+  .archive-search {
+    flex: 1 1 100%;
   }
 }
 
@@ -634,12 +755,31 @@ img {
   color: #9a022e !important;
 }
 
-.swiper-pagination-bullet-active {
-  background-color: #9a022e !important;
+// .swiper-pagination-bullet-active {
+//   background-color: #9a022e !important;
+// }
+
+// .swiper-pagination-bullet {
+//   color: #808080 !important;
+// }
+
+/* Swiper Pagination Bullets */
+.swiper-pagination-bullet {
+  width: 12px !important;  /* Larger bullet size */
+  height: 12px !important;
+  background-color: #808080 !important; /* Inactive bullets */
+  opacity: 0.7 !important;
+  margin: 0 6px !important; /* Spacing between bullets */
+  border-radius: 50% !important; /* Circle shape */
+  transition: all 0.3s ease !important;
 }
 
-.swiper-pagination-bullet {
-  color: #808080 !important;
+/* Active Bullet */
+.swiper-pagination-bullet-active {
+  background-color: #9a022e !important; /* Active bullet in red */
+  width: 14px !important;  /* Slightly larger for emphasis */
+  height: 14px !important;
+  opacity: 1 !important;
 }
 
 /* Remove legacy float behavior */
@@ -899,4 +1039,54 @@ li.dropdown {
 
   );
 
+}
+
+/* ---------- JUMBOTRON ---------- */
+
+.jumbotron {
+  position: relative;
+  width: 100%;
+  height: 420px;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+.jumbotron img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%); /* Keep image centered */
+  filter: grayscale(100%);
+  transition: filter 2s ease; /* Gradual fade of grayscale */
+}
+
+.jumbotron:hover img {
+  filter: grayscale(0%); /* Fade back to color on hover */
+  /* Removed the scale() to keep the image still */
+}
+
+.jumbotron-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+}
+
+.jumbotron-content {
+  max-width: 750px;
+  color: white;
+}
+
+.jumbotron h1 {
+  margin-bottom: 10px;
+}
+
+.jumbotron p {
+  opacity: 0.9;
 }

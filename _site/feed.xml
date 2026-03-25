@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-03-25T15:56:46-05:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">=][=</title><author><name>PaintsPlastic</name></author><entry><title type="html">Welcome!</title><link href="http://0.0.0.0:4000/2025/01/01/2025-welcome/" rel="alternate" type="text/html" title="Welcome!" /><published>2025-01-01T06:06:00-06:00</published><updated>2025-01-01T06:06:00-06:00</updated><id>http://0.0.0.0:4000/2025/01/01/2025-welcome</id><content type="html" xml:base="http://0.0.0.0:4000/2025/01/01/2025-welcome/"><![CDATA[<p>This is just a quick post to act as a first proper post, and as a short welcome and introduction to anyone that might have stumbled onto this little blog of mine and is wondering “What the heck is this?”</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-03-25T17:22:36-05:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">=][=</title><author><name>PaintsPlastic</name></author><entry><title type="html">Test 3</title><link href="http://0.0.0.0:4000/2026/01/01/testing/" rel="alternate" type="text/html" title="Test 3" /><published>2026-01-01T06:06:00-06:00</published><updated>2026-01-01T06:06:00-06:00</updated><id>http://0.0.0.0:4000/2026/01/01/testing</id><content type="html" xml:base="http://0.0.0.0:4000/2026/01/01/testing/"><![CDATA[Blah Blah Blah
+
+![](/assets/img/fec.png)
+
+This is just a quick post to act as a first proper post, and as a short welcome and introduction to anyone that might have stumbled onto this little blog of mine and is wondering "What the heck is this?"
+
+Good question... I'm not exactly sure yet. Mostly miniatures, and the painting and assembly thereof, as well as adjacent things like making terrain.
+
+Mostly it's the results of me wanting to make my own blogging template because I couldn't find one that I liked that I didn't have to pay for. I'm by no means a developer, but I have a somewhat adjacent skill set so I managed to cobble together a Jekyll template and steal some code from people who are way better at that sort of thing that I am and hey-presto.
+
+You can reach out to me on BSky and Instagram @PaintsPlastic if that's something that you feel like you want to do.
+
+Anyway, welcome, and I hope you find something here that inspires you or you just think is kinda neat.
+
+:)]]></content><author><name>PaintsPlastic</name></author><category term="test" /><category term="featured" /><summary type="html"><![CDATA[Blah Blah Blah]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://0.0.0.0:4000/assets/img/blanche2.jpg" /><media:content medium="image" url="http://0.0.0.0:4000/assets/img/blanche2.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Test 3</title><link href="http://0.0.0.0:4000/2025/01/01/2025-test-1-copy-2/" rel="alternate" type="text/html" title="Test 3" /><published>2025-01-01T06:06:00-06:00</published><updated>2025-01-01T06:06:00-06:00</updated><id>http://0.0.0.0:4000/2025/01/01/2025-test-1%20copy%202</id><content type="html" xml:base="http://0.0.0.0:4000/2025/01/01/2025-test-1-copy-2/"><![CDATA[<p>This is just a quick post to act as a first proper post, and as a short welcome and introduction to anyone that might have stumbled onto this little blog of mine and is wondering “What the heck is this?”</p>
 
 <p>Good question… I’m not exactly sure yet. Mostly miniatures, and the painting and assembly thereof, as well as adjacent things like making terrain.</p>
 
@@ -8,58 +22,92 @@
 
 <p>Anyway, welcome, and I hope you find something here that inspires you or you just think is kinda neat.</p>
 
-<p>:)</p>]]></content><author><name>PaintsPlastic</name></author><category term="test" /><category term="featured" /><summary type="html"><![CDATA[This is just a quick post to act as a first proper post, and as a short welcome and introduction to anyone that might have stumbled onto this little blog of mine and is wondering “What the heck is this?”]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://0.0.0.0:4000/assets/img/blanche4.png" /><media:content medium="image" url="http://0.0.0.0:4000/assets/img/blanche4.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Ferrofractor Cartel: Part 1</title><link href="http://0.0.0.0:4000/2025/01/01/ferrofractor-cartel-pt1/" rel="alternate" type="text/html" title="Ferrofractor Cartel: Part 1" /><published>2025-01-01T06:06:00-06:00</published><updated>2025-01-01T06:06:00-06:00</updated><id>http://0.0.0.0:4000/2025/01/01/ferrofractor-cartel-pt1</id><content type="html" xml:base="http://0.0.0.0:4000/2025/01/01/ferrofractor-cartel-pt1/"><![CDATA[<p>At some point last year (2024) I bought a Myphitic Blight-hauler.</p>
+<p>:)</p>]]></content><author><name>PaintsPlastic</name></author><category term="test" /><category term="featured" /><summary type="html"><![CDATA[This is just a quick post to act as a first proper post, and as a short welcome and introduction to anyone that might have stumbled onto this little blog of mine and is wondering “What the heck is this?”]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://0.0.0.0:4000/assets/img/wp12803541.jpg" /><media:content medium="image" url="http://0.0.0.0:4000/assets/img/wp12803541.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Ferrofractor Cartel: Part 1</title><link href="http://0.0.0.0:4000/2025/01/01/ferrofractor-cartel-pt1/" rel="alternate" type="text/html" title="Ferrofractor Cartel: Part 1" /><published>2025-01-01T06:06:00-06:00</published><updated>2025-01-01T06:06:00-06:00</updated><id>http://0.0.0.0:4000/2025/01/01/ferrofractor-cartel-pt1</id><content type="html" xml:base="http://0.0.0.0:4000/2025/01/01/ferrofractor-cartel-pt1/"><![CDATA[At some point last year (2024) I bought a Myphitic Blight-hauler.
 
-<p><img src="https://www.warhammer.com/app/resources/catalog/product/920x950/99120102080_ETBDeathGuardBlighthauler01.jpg?fm=webp&amp;w=920&amp;h=948" alt="Myphitic Blight Hauler" /></p>
+![Myphitic Blight Hauler](https://www.warhammer.com/app/resources/catalog/product/920x950/99120102080_ETBDeathGuardBlighthauler01.jpg?fm=webp&w=920&h=948)
 
-<p>I don’t even remember buying it, or who I bought it from, it showed up at my work in an unmarked brown package and I proceeded to leave it in my desk drawer for about 6 weeks.</p>
+I don't even remember buying it, or who I bought it from, it showed up at my work in an unmarked brown package and I proceeded to leave it in my desk drawer for about 6 weeks.
 
-<p>It seems that the power of Papa Nurgle is powerful though. I eventually brought it home, and got it built up, and it sat on my desk watching over me for a few weeks. Little did I know that it was slowly infecting me.</p>
+It seems that the power of Papa Nurgle is powerful though. I eventually brought it home, and got it built up, and it sat on my desk watching over me for a few weeks. Little did I know that it was slowly infecting me.
 
-<p>To cut a long and tedious story short, I eventually picked up a whole deathguard army to compliment my new little buddy because he looked a bit lonely.</p>
+To cut a long and tedious story short, I eventually picked up a whole deathguard army to compliment my new little buddy because he looked a bit lonely.
 
-<hr />
+---
 
-<p>The full army list is now as follows:</p>
+The full army list is now as follows:
 
-<h3 id="characters">Characters:</h3>
-<ul>
-  <li>Typhus</li>
-  <li>Chaos Lord in Terminator Armor</li>
-  <li>Biologus Putrifier</li>
-  <li>Lord of Contagion</li>
-  <li>Banner Bearer</li>
-</ul>
+### Characters:
+- Typhus
+- Chaos Lord in Terminator Armor
+- Biologus Putrifier
+- Lord of Contagion
+- Banner Bearer
 
-<h3 id="battleline">Battleline:</h3>
-<ul>
-  <li>21 Plague Marines (3x7)</li>
-</ul>
+### Battleline:
+- 21 Plague Marines (3x7)
 
-<h3 id="other-datasheets">Other Datasheets:</h3>
-<ul>
-  <li>30 Pox Walkers</li>
-  <li>10 Culists</li>
-  <li>3 Myphitic Blight-Hauler</li>
-  <li>1 Foetid Bloat Drone</li>
-  <li>1 Predator Annihilator</li>
-  <li>1 Plague Burst Crawler</li>
-</ul>
+### Other Datasheets:
+- 30 Pox Walkers
+- 10 Culists
+- 3 Myphitic Blight-Hauler
+- 1 Foetid Bloat Drone
+- 1 Predator Annihilator
+- 1 Plague Burst Crawler
 
-<h3 id="dedicated-transports">Dedicated Transports:</h3>
-<ul>
-  <li>2 Rhinos</li>
-</ul>
+### Dedicated Transports:
+- 2 Rhinos
 
-<h3 id="allied-units">Allied Units</h3>
-<ul>
-  <li>1 War Dog Karnivore</li>
-  <li>2 War Dog Brigand</li>
-  <li>18 Nurglings :D</li>
-  <li>10 Plague Bearers</li>
-</ul>
+### Allied Units
+- 1 War Dog Karnivore
+- 2 War Dog Brigand
+- 18 Nurglings :D
+- 10 Plague Bearers
 
-<p>Time as always is the greatest enemy of the miniature hobbyist, and life conspired against me in 2024 to make sure I had as little free time as possible. But I managed to get most of the minis assembled, and then during the Christmas break I finished the assembly and got all of the infantry primed.</p>]]></content><author><name>PaintsPlastic</name></author><category term="test" /><category term="featured" /><summary type="html"><![CDATA[At some point last year (2024) I bought a Myphitic Blight-hauler.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://0.0.0.0:4000/assets/img/krieg.jpg" /><media:content medium="image" url="http://0.0.0.0:4000/assets/img/krieg.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Drukhari: I</title><link href="http://0.0.0.0:4000/2024/06/09/drukhari/" rel="alternate" type="text/html" title="Drukhari: I" /><published>2024-06-09T07:06:00-05:00</published><updated>2024-06-09T07:06:00-05:00</updated><id>http://0.0.0.0:4000/2024/06/09/drukhari</id><content type="html" xml:base="http://0.0.0.0:4000/2024/06/09/drukhari/"><![CDATA[<p><img src="/assets/img/blanche3.jpg" alt="" /></p>
+
+
+Time as always is the greatest enemy of the miniature hobbyist, and life conspired against me in 2024 to make sure I had as little free time as possible. But I managed to get most of the minis assembled, and then during the Christmas break I finished the assembly and got all of the infantry primed.]]></content><author><name>PaintsPlastic</name></author><category term="test" /><category term="featured" /><category term="nurgle" /><category term="deathguard" /><summary type="html"><![CDATA[At some point last year (2024) I bought a Myphitic Blight-hauler.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://0.0.0.0:4000/assets/img/krieg.jpg" /><media:content medium="image" url="http://0.0.0.0:4000/assets/img/krieg.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Test 4</title><link href="http://0.0.0.0:4000/2025/01/01/2025-test-1-copy-3/" rel="alternate" type="text/html" title="Test 4" /><published>2025-01-01T06:06:00-06:00</published><updated>2025-01-01T06:06:00-06:00</updated><id>http://0.0.0.0:4000/2025/01/01/2025-test-1%20copy%203</id><content type="html" xml:base="http://0.0.0.0:4000/2025/01/01/2025-test-1-copy-3/"><![CDATA[This is just a quick post to act as a first proper post, and as a short welcome and introduction to anyone that might have stumbled onto this little blog of mine and is wondering "What the heck is this?"
+
+Good question... I'm not exactly sure yet. Mostly miniatures, and the painting and assembly thereof, as well as adjacent things like making terrain.
+
+Mostly it's the results of me wanting to make my own blogging template because I couldn't find one that I liked that I didn't have to pay for. I'm by no means a developer, but I have a somewhat adjacent skill set so I managed to cobble together a Jekyll template and steal some code from people who are way better at that sort of thing that I am and hey-presto.
+
+You can reach out to me on BSky and Instagram @PaintsPlastic if that's something that you feel like you want to do.
+
+Anyway, welcome, and I hope you find something here that inspires you or you just think is kinda neat.
+
+:)]]></content><author><name>PaintsPlastic</name></author><category term="test" /><category term="featured" /><summary type="html"><![CDATA[This is just a quick post to act as a first proper post, and as a short welcome and introduction to anyone that might have stumbled onto this little blog of mine and is wondering “What the heck is this?”]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://0.0.0.0:4000/assets/img/blanche2.jpg" /><media:content medium="image" url="http://0.0.0.0:4000/assets/img/blanche2.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Test 1</title><link href="http://0.0.0.0:4000/2025/01/01/2025-test-1/" rel="alternate" type="text/html" title="Test 1" /><published>2025-01-01T06:06:00-06:00</published><updated>2025-01-01T06:06:00-06:00</updated><id>http://0.0.0.0:4000/2025/01/01/2025-test-1</id><content type="html" xml:base="http://0.0.0.0:4000/2025/01/01/2025-test-1/"><![CDATA[This is just a quick post to act as a first proper post, and as a short welcome and introduction to anyone that might have stumbled onto this little blog of mine and is wondering "What the heck is this?"
+
+Good question... I'm not exactly sure yet. Mostly miniatures, and the painting and assembly thereof, as well as adjacent things like making terrain.
+
+Mostly it's the results of me wanting to make my own blogging template because I couldn't find one that I liked that I didn't have to pay for. I'm by no means a developer, but I have a somewhat adjacent skill set so I managed to cobble together a Jekyll template and steal some code from people who are way better at that sort of thing that I am and hey-presto.
+
+You can reach out to me on BSky and Instagram @PaintsPlastic if that's something that you feel like you want to do.
+
+Anyway, welcome, and I hope you find something here that inspires you or you just think is kinda neat.
+
+:)]]></content><author><name>PaintsPlastic</name></author><category term="test" /><category term="featured" /><summary type="html"><![CDATA[This is just a quick post to act as a first proper post, and as a short welcome and introduction to anyone that might have stumbled onto this little blog of mine and is wondering “What the heck is this?”]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://0.0.0.0:4000/assets/img/blanche4.png" /><media:content medium="image" url="http://0.0.0.0:4000/assets/img/blanche4.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Test 2</title><link href="http://0.0.0.0:4000/2025/01/01/2025-test-1-copy/" rel="alternate" type="text/html" title="Test 2" /><published>2025-01-01T06:06:00-06:00</published><updated>2025-01-01T06:06:00-06:00</updated><id>http://0.0.0.0:4000/2025/01/01/2025-test-1%20copy</id><content type="html" xml:base="http://0.0.0.0:4000/2025/01/01/2025-test-1-copy/"><![CDATA[This is just a quick post to act as a first proper post, and as a short welcome and introduction to anyone that might have stumbled onto this little blog of mine and is wondering "What the heck is this?"
+
+Good question... I'm not exactly sure yet. Mostly miniatures, and the painting and assembly thereof, as well as adjacent things like making terrain.
+
+Mostly it's the results of me wanting to make my own blogging template because I couldn't find one that I liked that I didn't have to pay for. I'm by no means a developer, but I have a somewhat adjacent skill set so I managed to cobble together a Jekyll template and steal some code from people who are way better at that sort of thing that I am and hey-presto.
+
+You can reach out to me on BSky and Instagram @PaintsPlastic if that's something that you feel like you want to do.
+
+Anyway, welcome, and I hope you find something here that inspires you or you just think is kinda neat.
+
+:)]]></content><author><name>PaintsPlastic</name></author><category term="test" /><category term="featured" /><summary type="html"><![CDATA[This is just a quick post to act as a first proper post, and as a short welcome and introduction to anyone that might have stumbled onto this little blog of mine and is wondering “What the heck is this?”]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://0.0.0.0:4000/assets/img/blanche4.png" /><media:content medium="image" url="http://0.0.0.0:4000/assets/img/blanche4.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Welcome!</title><link href="http://0.0.0.0:4000/2025/01/01/2025-welcome/" rel="alternate" type="text/html" title="Welcome!" /><published>2025-01-01T06:06:00-06:00</published><updated>2025-01-01T06:06:00-06:00</updated><id>http://0.0.0.0:4000/2025/01/01/2025-welcome</id><content type="html" xml:base="http://0.0.0.0:4000/2025/01/01/2025-welcome/"><![CDATA[This is just a quick post to act as a first proper post, and as a short welcome and introduction to anyone that might have stumbled onto this little blog of mine and is wondering "What the heck is this?"
+
+Good question... I'm not exactly sure yet. Mostly miniatures, and the painting and assembly thereof, as well as adjacent things like making terrain.
+
+Mostly it's the results of me wanting to make my own blogging template because I couldn't find one that I liked that I didn't have to pay for. I'm by no means a developer, but I have a somewhat adjacent skill set so I managed to cobble together a Jekyll template and steal some code from people who are way better at that sort of thing that I am and hey-presto.
+
+You can reach out to me on BSky and Instagram @PaintsPlastic if that's something that you feel like you want to do.
+
+Anyway, welcome, and I hope you find something here that inspires you or you just think is kinda neat.
+
+:)]]></content><author><name>PaintsPlastic</name></author><category term="test" /><category term="featured" /><summary type="html"><![CDATA[This is just a quick post to act as a first proper post, and as a short welcome and introduction to anyone that might have stumbled onto this little blog of mine and is wondering “What the heck is this?”]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://0.0.0.0:4000/assets/img/blanche4.png" /><media:content medium="image" url="http://0.0.0.0:4000/assets/img/blanche4.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Placeholder: I</title><link href="http://0.0.0.0:4000/2024/06/09/2025-to-do-list/" rel="alternate" type="text/html" title="Placeholder: I" /><published>2024-06-09T07:06:00-05:00</published><updated>2024-06-09T07:06:00-05:00</updated><id>http://0.0.0.0:4000/2024/06/09/2025-to-do-list</id><content type="html" xml:base="http://0.0.0.0:4000/2024/06/09/2025-to-do-list/"><![CDATA[![](/assets/img/fec.png)
+
+- Finish this post]]></content><author><name>PaintsPlastic</name></author><category term="test" /><category term="featured" /><summary type="html"><![CDATA[]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://0.0.0.0:4000/assets/img/fec.png" /><media:content medium="image" url="http://0.0.0.0:4000/assets/img/fec.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Drukhari: I</title><link href="http://0.0.0.0:4000/2024/06/09/drukhari/" rel="alternate" type="text/html" title="Drukhari: I" /><published>2024-06-09T07:06:00-05:00</published><updated>2024-06-09T07:06:00-05:00</updated><id>http://0.0.0.0:4000/2024/06/09/drukhari</id><content type="html" xml:base="http://0.0.0.0:4000/2024/06/09/drukhari/"><![CDATA[![](/assets/img/blanche3.jpg)
 
 <!--
 Source - https://stackoverflow.com/q/72208674
@@ -93,8 +141,4 @@ Retrieved 2026-03-25, License - CC BY-SA 4.0
         </div>
     </div>
 
-</div> -->]]></content><author><name>PaintsPlastic</name></author><category term="test" /><category term="featured" /><summary type="html"><![CDATA[]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://0.0.0.0:4000/assets/img/background.jpg" /><media:content medium="image" url="http://0.0.0.0:4000/assets/img/background.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Placeholder: I</title><link href="http://0.0.0.0:4000/2024/06/09/2025-to-do-list/" rel="alternate" type="text/html" title="Placeholder: I" /><published>2024-06-09T07:06:00-05:00</published><updated>2024-06-09T07:06:00-05:00</updated><id>http://0.0.0.0:4000/2024/06/09/2025-to-do-list</id><content type="html" xml:base="http://0.0.0.0:4000/2024/06/09/2025-to-do-list/"><![CDATA[<p><img src="/assets/img/fec.png" alt="" /></p>
-
-<ul>
-  <li>Finish this post</li>
-</ul>]]></content><author><name>PaintsPlastic</name></author><category term="test" /><category term="featured" /><summary type="html"><![CDATA[]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://0.0.0.0:4000/assets/img/fec.png" /><media:content medium="image" url="http://0.0.0.0:4000/assets/img/fec.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+</div> -->]]></content><author><name>PaintsPlastic</name></author><category term="test" /><category term="featured" /><summary type="html"><![CDATA[]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://0.0.0.0:4000/assets/img/background.jpg" /><media:content medium="image" url="http://0.0.0.0:4000/assets/img/background.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

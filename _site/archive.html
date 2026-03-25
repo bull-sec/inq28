@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
       </button>
       <ul>
         <li><a href="/">Home</a></li>
-        <li><a href="/archive">Archive</a></li>
+        <li><a href="/reliquarium">Archive</a></li>
         <li class="dropdown">
           <a href="javascript:void(0)" class="dropbtn">Projects</a>
           <div class="dropdown-content">
@@ -61,39 +61,121 @@ document.addEventListener("DOMContentLoaded", function() {
 <div class="content">
   <div class="container">
     <!-- <h1>=][=</h1> -->
-    <p><div class="blank-block"></div> 
-<div class="container" style="text-align: center;">
-<div class="search-article" style="text-align: left;">
-  <label for="search-input" aria-hidden="true">
-    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="rgba(128,128,128,0.8)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-  </label>
-  <input type="search" id="search-input" aria-label="Search">
+    <p><p class="blank-block"></p>
+<h1 style="text-align: center; margin-bottom: 5px;">Scriptorium Noctis</h1>
+<p class="blank-block"></p>
+
+<div class="blank-block"></div> 
+<img src="/assets/img/mechanicus.jpg" style="width: 100%; max-height: 200px; object-fit: cover; display: block;">
+<div class="blank-block"></div> 
+
+<div class="archive-container container">
+  <!-- LEFT COLUMN: Posts -->
+  <div class="archive-posts"><h2 class="archive-year">2026</h2><article class="post-item">
+        <h3 class="post-item-title">
+          <a href="/2026/01/01/testing/">Test 3</a>
+        </h3>
+        
+          <p class="post-item-excerpt">Blah Blah Blah
+</p>
+        
+      </article><h2 class="archive-year">2025</h2><article class="post-item">
+        <h3 class="post-item-title">
+          <a href="/2025/01/01/2025-welcome/">Welcome!</a>
+        </h3>
+        
+          <p class="post-item-excerpt">This is just a quick post to act as a first proper post, and as a short welcome and introduction to anyone that might have stumbled onto this little blog...</p>
+        
+      </article><article class="post-item">
+        <h3 class="post-item-title">
+          <a href="/2025/01/01/2025-test-1/">Test 1</a>
+        </h3>
+        
+          <p class="post-item-excerpt">This is just a quick post to act as a first proper post, and as a short welcome and introduction to anyone that might have stumbled onto this little blog...</p>
+        
+      </article><article class="post-item">
+        <h3 class="post-item-title">
+          <a href="/2025/01/01/2025-test-1-copy/">Test 2</a>
+        </h3>
+        
+          <p class="post-item-excerpt">This is just a quick post to act as a first proper post, and as a short welcome and introduction to anyone that might have stumbled onto this little blog...</p>
+        
+      </article><article class="post-item">
+        <h3 class="post-item-title">
+          <a href="/2025/01/01/2025-test-1-copy-3/">Test 4</a>
+        </h3>
+        
+          <p class="post-item-excerpt">This is just a quick post to act as a first proper post, and as a short welcome and introduction to anyone that might have stumbled onto this little blog...</p>
+        
+      </article><article class="post-item">
+        <h3 class="post-item-title">
+          <a href="/2025/01/01/2025-test-1-copy-2/">Test 3</a>
+        </h3>
+        
+          <p class="post-item-excerpt">This is just a quick post to act as a first proper post, and as a short welcome and introduction to anyone that might have stumbled onto this little blog...</p>
+        
+      </article><article class="post-item">
+        <h3 class="post-item-title">
+          <a href="/2025/01/01/ferrofractor-cartel-pt1/">Ferrofractor Cartel: Part 1</a>
+        </h3>
+        
+          <p class="post-item-excerpt">At some point last year (2024) I bought a Myphitic Blight-hauler.
+</p>
+        
+      </article><h2 class="archive-year">2024</h2><article class="post-item">
+        <h3 class="post-item-title">
+          <a href="/2024/06/09/2025-to-do-list/">Placeholder: I</a>
+        </h3>
+        
+          <p class="post-item-excerpt">
+</p>
+        
+      </article><article class="post-item">
+        <h3 class="post-item-title">
+          <a href="/2024/06/09/drukhari/">Drukhari: I</a>
+        </h3>
+        
+          <p class="post-item-excerpt">
+</p>
+        
+      </article></div>
+
+  <!-- RIGHT COLUMN: Search -->
+  <div class="archive-search">
+    <div class="search-article">
+      <label for="search-input" aria-hidden="true">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="rgba(128,128,128,0.8)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+      </label>
+      <input type="search" id="search-input" aria-label="Search">
+    </div>
+
+    <h2>Search Results:</h2>
+    <p id="search-results"></p>
+  </div>
 </div>
 
-<h2>Search Results:</h2>
-<br>
-<p id="search-results"></p>
+<p class="blank-block"></p>
+<h1 style="text-align: center; margin-bottom: 5px;">=][=</h1>
+<p class="blank-block"></p>
 
-<div class="blank-block"></div><h2>2025</h2>
-    <br><article class="post-item">
-    <h3 class="post-item-title">
-      <a href="/2025/01/01/2025-welcome/">Welcome!</a>
-    </h3> 
-  </article><article class="post-item">
-    <h3 class="post-item-title">
-      <a href="/2025/01/01/ferrofractor-cartel-pt1/">Ferrofractor Cartel: Part 1</a>
-    </h3> 
-  </article><h2>2024</h2>
-    <br><article class="post-item">
-    <h3 class="post-item-title">
-      <a href="/2024/06/09/2025-to-do-list/">Placeholder: I</a>
-    </h3> 
-  </article><article class="post-item">
-    <h3 class="post-item-title">
-      <a href="/2024/06/09/drukhari/">Drukhari: I</a>
-    </h3> 
-  </article></div>
-<div class="blank-block"></div></p>
+<!-- Footer remains outside -->
+<div style="text-align: center;">
+
+    <footer>
+      <br>
+      <i>All Rights Reserved &copy; 2026 =][= Website Design by bl3ak</i><p></p>
+
+      <p><small>This web site is completely unofficial and in no way endorsed by Games Workshop Limited.</small></p>
+
+      <p><small>Adeptus Astartes, Battlefleet Gothic, Black Flame, Black Library, the Black Library logo, BL Publishing, Blood Angels, Bloodquest, Blood Bowl, the Blood Bowl logo, The Blood Bowl Spike Device, Cadian, Catachan, the Chaos device, Cityfight, the Chaos logo, Citadel, Citadel Device, City of the Damned, Codex, Daemonhunters, Dark Angels, Dark Eldar, Dark Future, the Double-Headed/Imperial Eagle device, 'Eavy Metal, Eldar, Eldar symbol devices, Epic, Eye of Terror, Fanatic, the Fanatic logo, the Fanatic II logo, Fire Warrior, Forge World, Games Workshop, Games Workshop logo, Genestealer, Golden Demon, Gorkamorka, Great Unclean One, the Hammer of Sigmar logo, Horned Rat logo, Inferno, Inquisitor, the Inquisitor logo, the Inquisitor device, Inquisitor:Conspiracies, Keeper of Secrets, Khemri, Khorne, Kroot, Lord of Change, Marauder, Mordheim, the Mordheim logo, Necromunda, Necromunda stencil logo, Necromunda Plate logo, Necron, Nurgle, Ork, Ork skull devices, Sisters of Battle, Skaven, the Skaven symbol devices, Slaanesh, Space Hulk, Space Marine, Space Marine chapters, Space Marine chapter logos, Talisman, Tau, the Tau caste designations, Tomb Kings, Trio of Warriors, Twin Tailed Comet Logo, Tyranid, Tyrannid, Tzeentch, Ultramarines, Warhammer, Warhammer Historical, Warhammer Online, Warhammer 40k Device, Warhammer World logo, Warmaster, White Dwarf, the White Dwarf logo, and all associated marks, names, races, race insignia, characters, vehicles, locations, units, illustrations and images from the Blood Bowl game, the Warhammer world, the Talisman world, and the Warhammer 40,000 universe are either ®, TM and/or © Copyright Games Workshop Ltd 2000-2014, variably registered in the UK and other countries around the world. Used without permission. No challenge to their status intended. All Rights Reserved to their respective owners.</small></p>
+    </footer>
+  </div>
+
+<div class="footer-block"></div>
+
+<div class="blank-block"></div>
+
+</p>
     <div style="text-align: center;">
 
     <footer>

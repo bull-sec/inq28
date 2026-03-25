@@ -136,7 +136,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <h1 style="text-align: center; margin-bottom: 5px;">{{ site.title }}</h1>
 <div class="blank-block"></div>
 <!-- <h2 style="text-align: center; margin-bottom: 5px;">++ LATEST ++</h2> -->
-{% for post in site.posts limit:10 %}
+{% for post in site.posts limit:6 %}
 <div class="cover-block">
   <a href="{{ post.url }}">
     <img src="{{ post.image }}" alt="Cover Image" class="cover-image" class="greyscale-hover">
@@ -148,8 +148,25 @@ document.addEventListener("DOMContentLoaded", function () {
     </a>
   </div>
 {% endfor %}
- 
 
+<p class="blank-block"></p>
+<h1 style="text-align: center; margin-bottom: 5px;">{{ site.title }}</h1>
+<p class="blank-block"></p>
+
+{% assign latest = site.posts.first %}
+<div class="jumbotron">
+  <a href="{{ latest.url }}">
+    <img src="{{ latest.image }}" alt="{{ latest.title }}">
+    <div class="jumbotron-overlay">
+      <div class="jumbotron-content">
+        <h1>{{ latest.title }}</h1>
+        <p>
+          {{ latest.excerpt | strip_html | truncate: 200 }}
+        </p>
+      </div>
+    </div>
+  </a>
+</div>
 
 <!-- <div class="featured-posts-container">
     {% for post in site.tags.featured limit:6 %}
@@ -169,3 +186,23 @@ document.addEventListener("DOMContentLoaded", function () {
 <p class="blank-block"></p>
 <h1 style="text-align: center; margin-bottom: 5px;">{{ site.title }}</h1>
 <p class="blank-block"></p>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+  var sjs = SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('search-results'),
+    json: '/assets/search.json',
+  });
+
+  const resultsContainer = document.getElementById('search-results');
+
+  // Observe changes to the container and trigger fade-in
+  const observer = new MutationObserver(() => {
+    resultsContainer.classList.remove('show'); // reset
+    void resultsContainer.offsetWidth;          // force reflow
+    resultsContainer.classList.add('show');    // trigger animation
+  });
+
+  observer.observe(resultsContainer, { childList: true });
+});
+</script>
