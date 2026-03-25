@@ -4,6 +4,9 @@
       <a href="{{ site.url }}">{{ site.title }}</a>
     </div>
     <div class="navbar-links">
+      <button class="menu-toggle" aria-label="Toggle menu">
+        <span class="hamburger"></span>
+      </button>
       <ul>
         <li><a href="/">Home</a></li>
         <li><a href="/archive">Archive</a></li>
@@ -22,3 +25,16 @@
     </div>
   </div>
 </nav>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+
+  const toggle = document.querySelector(".menu-toggle");
+  const menu = document.querySelector(".navbar-links ul");
+
+  toggle.addEventListener("click", () => {
+    menu.classList.toggle("active");
+  });
+
+});
+</script>

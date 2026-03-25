@@ -14,6 +14,9 @@
       <a href="http://0.0.0.0:4000">=][=</a>
     </div>
     <div class="navbar-links">
+      <button class="menu-toggle" aria-label="Toggle menu">
+        <span class="hamburger"></span>
+      </button>
       <ul>
         <li><a href="/">Home</a></li>
         <li><a href="/archive">Archive</a></li>
@@ -32,6 +35,19 @@
     </div>
   </div>
 </nav>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+
+  const toggle = document.querySelector(".menu-toggle");
+  const menu = document.querySelector(".navbar-links ul");
+
+  toggle.addEventListener("click", () => {
+    menu.classList.toggle("active");
+  });
+
+});
+</script>
 
 <div class="content">
   <div class="container">
@@ -227,7 +243,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 <!-- <h2 style="text-align: center; margin-bottom: 5px;">++ LATEST ++</h2> -->
-<!-- 
+
 <div class="cover-block">
   <a href="/2025/01/01/2025-welcome/">
     <img src="/assets/img/blanche4.png" alt="Cover Image" class="cover-image" class="greyscale-hover">
@@ -271,7 +287,7 @@ document.addEventListener("DOMContentLoaded", function () {
     </div>
     </a>
   </div>
- -->
+
  
 
 

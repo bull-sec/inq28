@@ -82,6 +82,7 @@ img {
 
 .navbar-links ul {
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -257,7 +258,7 @@ img {
   flex-basis: calc(50% - 10px); /* Adjust width to fit two items per row with spacing */
   margin-bottom: 10px; /* Increase spacing between rows */
   margin-right: 10px; /* Add margin-right to create spacing between items */
-  height: 200px; /* Set the height of the container */
+  height: 350px; /* Set the height of the container */
   overflow: hidden; /* Ensure the image is cropped */
 }
 
@@ -379,9 +380,12 @@ img {
 }
 
 .container {
-  max-width: 1200px;
+  width: 100%;
+  max-width: 1200px; /* keep your existing value */
   margin: 0 auto;
-  padding: 0 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
 }
 
 .content h1 {
@@ -647,4 +651,207 @@ li.dropdown {
   background-color: #000;
 }
 
+/* ---------- MOBILE NAVBAR CLEANUP ---------- */
+@media (max-width: 768px) {
 
+  .navbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .navbar-links ul {
+    display: flex;
+    flex-direction: column;   /* stack items vertically */
+    align-items: center;      /* center links */
+    gap: 8px;                 /* spacing between items */
+  }
+
+  .navbar-links li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar-links a {
+    display: block;
+    padding: 8px 0;
+  }
+
+  /* make dropdown behave nicely */
+  .dropdown-content {
+    position: relative;   /* stops it floating off screen */
+    box-shadow: none;
+    width: 100%;
+  }
+
+}
+
+
+/* hide button on desktop */
+.menu-toggle {
+  display: none;
+}
+
+/* ---------- MOBILE MENU ---------- */
+@media (max-width: 768px) {
+
+  .menu-toggle {
+    display: block;
+    background: none;
+    border: 1px solid rgba(255,255,255,0.3);
+    padding: 8px 12px;
+    cursor: pointer;
+    color: inherit;
+    margin-bottom: 10px;
+  }
+
+  .navbar-links ul {
+    display: none; /* hidden by default */
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navbar-links ul.active {
+    display: flex;
+  }
+
+  .navbar-links li {
+    text-align: center;
+    padding: 6px 0;
+  }
+
+  /* dropdowns behave better stacked */
+  .dropdown-content {
+    position: relative;
+    box-shadow: none;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .navbar-links ul {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background: var(--surface-color);
+    padding: 15px 0;
+  }
+
+}
+
+/* hamburger hidden on desktop */
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+/* hamburger icon */
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+  display: block;
+  width: 26px;
+  height: 2px;
+  background: currentColor;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.hamburger::before,
+.hamburger::after {
+  content: "";
+  position: absolute;
+  left: 0;
+}
+
+.hamburger::before {
+  top: -8px;
+}
+
+.hamburger::after {
+  top: 8px;
+}
+
+
+/* ---------- MOBILE NAV ---------- */
+
+@media (max-width: 768px) {
+
+  .menu-toggle {
+    display: block;
+    z-index: 1100;
+  }
+
+  .navbar-links ul {
+
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+
+    background: var(--surface-color);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    max-height: 0;
+    overflow: hidden;
+
+    transition: max-height 0.35s ease;
+
+    border-bottom: 1px solid rgba(255,255,255,0.15);
+  }
+
+  .navbar-links ul.active {
+
+    max-height: 400px; /* enough space for links */
+
+  }
+
+  .navbar-links li {
+
+    width: 100%;
+    text-align: center;
+    padding: 12px 0;
+
+  }
+
+  /* dropdown stack */
+  .dropdown-content {
+
+    position: relative;
+    box-shadow: none;
+    display: none;
+    background: transparent;
+
+  }
+
+  .dropdown.open .dropdown-content {
+
+    display: block;
+
+  }
+
+
+  /* animate hamburger to X */
+
+  .menu-toggle.active .hamburger {
+    background: transparent;
+  }
+
+  .menu-toggle.active .hamburger::before {
+    transform: rotate(45deg);
+    top: 0;
+  }
+
+  .menu-toggle.active .hamburger::after {
+    transform: rotate(-45deg);
+    top: 0;
+  }
+
+}
