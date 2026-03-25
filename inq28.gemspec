@@ -26,4 +26,5 @@ Gem::Specification.new do |spec|
   # Ruby 3.4 stdlib gems no longer bundled
   spec.add_runtime_dependency 'csv'
   spec.add_runtime_dependency 'logger'
+  spec.add_runtime_dependency 'base64'
 end
