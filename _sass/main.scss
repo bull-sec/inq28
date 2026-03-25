@@ -63,6 +63,9 @@ img {
   padding: 10px 20px; /* Increase padding to create some space */
   width: 100%; /* Occupy full width */
   box-sizing: border-box; /* Ensure padding is included in the width */
+  position:sticky;
+  top: 0;
+  z-index: 1000; 
 }
 
 .navbar .container {
@@ -147,6 +150,8 @@ img {
   height: 100%; /* Ensure the image occupies full container height */
   object-fit: cover; /* Scale image to cover the container */
   transform: translate(-50%, -50%); /* Center the image */
+  transition: filter 1s ease, transform 1s ease;
+  filter: grayscale(100%);
 
   /* Extreme black border effect with strong gradient */
   box-shadow: inset 0 0 0 100px rgba(0, 0, 0, 1); /* Much thicker black border */
@@ -168,8 +173,16 @@ img {
   white-space: normal; /* Allow text to wrap */
 }
 
+.cover-block img:hover {
+  filter: grayscale(0%);
+}
+
 .cover-block__inner-container:hover {
   animation: pulse 1.5s ease-in 1 forwards; /* Pulse animation lasts for 0.5s and runs once */
+}
+
+.cover-block__inner-container:hover img {
+  transform: translate(-50%, -50%) scale(1.03);
 }
 
 @keyframes pulse {
@@ -196,7 +209,7 @@ img {
   flex-basis: calc(50% - 10px); /* Adjust width to fit two items per row with spacing */
   margin-bottom: 10px; /* Increase spacing between rows */
   margin-right: 10px; /* Add margin-right to create spacing between items */
-  height: 200px; /* Set the height of the container */
+  height: 350px; /* Set the height of the container */
   overflow: hidden; /* Ensure the image is cropped */
 }
 
@@ -207,6 +220,8 @@ img {
   width: auto; /* Maintain the aspect ratio of the image */
   height: auto; /* Set the image height to its original size */
   transform: translate(-50%, -50%); /* Center the image */
+  transition: filter 1s ease, transform 1s ease;
+  filter: grayscale(100%);
 }
 
 .overlay-container {
@@ -235,6 +250,11 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.featured-post:hover img {
+  filter: grayscale(0%);
+  // transform: translate(-50%, -50%) scale(1.03);
 }
 
 /* Media Queries */
@@ -546,4 +566,26 @@ img {
   border-radius: 4px;
   text-decoration: none;
   transition: background-color 0.3s, color 0.3s;
+}
+
+.greyscale-hover {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.greyscale-hover:hover {
+  filter: grayscale(0%);
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #9a022e !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #9a022e !important;
+}
+
+.swiper-pagination-bullet {
+  color: #808080 !important;
 }

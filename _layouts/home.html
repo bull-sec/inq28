@@ -2,14 +2,6 @@
 layout: default
 ---
 
-<!-- <div class="promoted-content">
-    {% for post in site.tags.promoted limit:1 %}
-    <a href="{{ post.url }}" class="promoted-cta"><img src="{{ post.image }}" alt="{{ post.title }}"></a>
-  </div>
-  {% endfor %}
-   -->
-
-
 <link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
@@ -23,6 +15,7 @@ layout: default
         <a href="{{ post.url }}" class="featured-post">
 
           <img
+            class="featured-post"
             src="{{ post.image }}"
             alt="{{ post.title }}"
             loading="lazy"
@@ -31,14 +24,15 @@ layout: default
           <div class="overlay">
             <h3>{{ post.title }}</h3>
           </div>
-
+          
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
         </a>
       </div>
     {% endfor %}
 
   </div>
-
-  <div class="swiper-pagination"></div>
+<div class="swiper-pagination" style="color: #fff;"></div>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -55,6 +49,11 @@ document.addEventListener("DOMContentLoaded", function () {
     pagination: {
       el: '.swiper-pagination',
       clickable: true,
+    },
+
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
     },
 
     breakpoints: {
@@ -91,7 +90,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 .featured-post img {
   width: 100%;
-  height: 220px;
+  height: 300px;
   object-fit: cover;
   display: block;
 }
@@ -112,35 +111,7 @@ document.addEventListener("DOMContentLoaded", function () {
 .overlay h3 {
   margin: 0;
   color: white;
-  font-size: 1.05rem;
-
-  /* navigation arrows */
-.swiper-button-prev,
-.swiper-button-next {
-  width: 42px;
-  height: 42px;
-  border-radius: 50%;
-
-  background: rgba(0,0,0,0.35);
-  border: 1px solid rgba(255,255,255,0.6);
-
-  backdrop-filter: blur(4px);
-
-  color: white;
-}
-
-/* arrow icon size */
-.swiper-button-prev::after,
-.swiper-button-next::after {
-  font-size: 16px;
-}
-
-/* hover effect */
-.swiper-button-prev:hover,
-.swiper-button-next:hover {
-  border-color: white;
-  background: rgba(0,0,0,0.55);
-}
+  font-size: 1.50rem;
 }
 
 </style>
@@ -148,10 +119,11 @@ document.addEventListener("DOMContentLoaded", function () {
 <div class="blank-block"></div>
 <p style="display: none;"></p>
 
+<h2 style="text-align: center;"></h2>
 
 <div class="blank-block"></div>
 
-<div class="typewriter">
+<!-- <div class="typewriter">
   <p style="text-align: center;">++ INCOMING TRANSMISSIONS ++</p>
   <p style="text-align: center;">++ RECEIVING CONTENT ++</p>
   <p style="text-align: center;">++ STREAM CIPHER: A1E3-7 ++</p>
@@ -160,14 +132,14 @@ document.addEventListener("DOMContentLoaded", function () {
   <p style="text-align: center;"></p>
 </div>
 
-<div class="blank-block"></div>
+<div class="blank-block"></div> -->
 
 
 <!-- <h2 style="text-align: center; margin-bottom: 5px;">++ LATEST ++</h2> -->
 {% for post in site.posts limit:10 %}
 <div class="cover-block">
   <a href="{{ post.url }}">
-    <img src="{{ post.image }}" alt="Cover Image" class="cover-image">
+    <img src="{{ post.image }}" alt="Cover Image" class="cover-image" class="greyscale-hover">
     <div class="cover-block__inner-container">
       <div class="layout-flow">
         <h2 href="{{ post.url }}">{{ post.title }}</h2>
@@ -179,11 +151,11 @@ document.addEventListener("DOMContentLoaded", function () {
  
 <div class="blank-block"></div>
 
-<div class="featured-posts-container">
+<!-- <div class="featured-posts-container">
     {% for post in site.tags.featured limit:6 %}
         <div class="featured-post">
           <a href="{{ post.url }}">
-            <img src="{{ post.image }}" alt="{{ post.title }}">
+            <img src="{{ post.image }}" class="greyscale-hover" alt="{{ post.title }}">
             <div class="overlay">
                 <div class="cover-block__inner-container">
                     <h3>{{ post.title }}</h3>
@@ -192,10 +164,6 @@ document.addEventListener("DOMContentLoaded", function () {
             </div>
         </div>
     {% endfor %}
-</div>
-
-<div class="blank-block"></div>
+</div> -->
 
 <h1 style="text-align: center; margin-bottom: 5px;">{{ site.title }}</h1>
-
-<div class="blank-block"></div>

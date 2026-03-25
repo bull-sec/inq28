@@ -8,7 +8,7 @@
 <link rel=stylesheet href="/assets/css/styles.css"></link>
 <meta name="viewport" content="width=device-width, initial-scale=1"></head>
 <body>
-<nav class="navbar">
+<!-- <nav class="navbar">
     <div class="container">
       <div class="navbar-brand">
         <a href="http://0.0.0.0:4000">=][=</a>
@@ -21,17 +21,28 @@
         </ul>
       </div>
     </div>
-  </nav>
+  </nav> -->
+
+  <nav class="navbar">
+  <div class="container navbar-container">
+    <div class="navbar-brand">
+      =][=
+    </div>
+    <div class="navbar-links">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/archive">Archive</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
 <div class="content">
   <div class="container">
     <!-- <h1>=][=</h1> -->
-    <p><!-- <div class="promoted-content">
-    
-   -->
-
-
-<link
+    <p><link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
 />
@@ -44,7 +55,8 @@
         <a href="/2025/01/01/2025-welcome/" class="featured-post">
 
           <img
-            src="/assets/img/krieg.jpg"
+            class="featured-post"
+            src="/assets/img/blanche4.png"
             alt="Welcome!"
             loading="lazy"
           >
@@ -52,7 +64,9 @@
           <div class="overlay">
             <h3>Welcome!</h3>
           </div>
-
+          
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
         </a>
       </div>
     
@@ -60,6 +74,7 @@
         <a href="/2025/01/01/ferrofractor-cartel-pt1/" class="featured-post">
 
           <img
+            class="featured-post"
             src="/assets/img/krieg.jpg"
             alt="Ferrofractor Cartel: Part 1"
             loading="lazy"
@@ -68,7 +83,9 @@
           <div class="overlay">
             <h3>Ferrofractor Cartel: Part 1</h3>
           </div>
-
+          
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
         </a>
       </div>
     
@@ -76,6 +93,7 @@
         <a href="/2024/06/09/2025-to-do-list/" class="featured-post">
 
           <img
+            class="featured-post"
             src="/assets/img/background.jpg"
             alt="Placeholder: I"
             loading="lazy"
@@ -84,7 +102,9 @@
           <div class="overlay">
             <h3>Placeholder: I</h3>
           </div>
-
+          
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
         </a>
       </div>
     
@@ -92,6 +112,7 @@
         <a href="/2024/06/09/drukhari/" class="featured-post">
 
           <img
+            class="featured-post"
             src="/assets/img/background.jpg"
             alt="Drukhari: I"
             loading="lazy"
@@ -100,14 +121,15 @@
           <div class="overlay">
             <h3>Drukhari: I</h3>
           </div>
-
+          
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
         </a>
       </div>
     
 
   </div>
-
-  <div class="swiper-pagination"></div>
+<div class="swiper-pagination" style="color: #fff;"></div>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -124,6 +146,11 @@ document.addEventListener("DOMContentLoaded", function () {
     pagination: {
       el: '.swiper-pagination',
       clickable: true,
+    },
+
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
     },
 
     breakpoints: {
@@ -160,7 +187,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 .featured-post img {
   width: 100%;
-  height: 220px;
+  height: 300px;
   object-fit: cover;
   display: block;
 }
@@ -181,35 +208,7 @@ document.addEventListener("DOMContentLoaded", function () {
 .overlay h3 {
   margin: 0;
   color: white;
-  font-size: 1.05rem;
-
-  /* navigation arrows */
-.swiper-button-prev,
-.swiper-button-next {
-  width: 42px;
-  height: 42px;
-  border-radius: 50%;
-
-  background: rgba(0,0,0,0.35);
-  border: 1px solid rgba(255,255,255,0.6);
-
-  backdrop-filter: blur(4px);
-
-  color: white;
-}
-
-/* arrow icon size */
-.swiper-button-prev::after,
-.swiper-button-next::after {
-  font-size: 16px;
-}
-
-/* hover effect */
-.swiper-button-prev:hover,
-.swiper-button-next:hover {
-  border-color: white;
-  background: rgba(0,0,0,0.55);
-}
+  font-size: 1.50rem;
 }
 
 </style>
@@ -217,10 +216,11 @@ document.addEventListener("DOMContentLoaded", function () {
 <div class="blank-block"></div>
 <p style="display: none;"></p>
 
+<h2 style="text-align: center;"></h2>
 
 <div class="blank-block"></div>
 
-<div class="typewriter">
+<!-- <div class="typewriter">
   <p style="text-align: center;">++ INCOMING TRANSMISSIONS ++</p>
   <p style="text-align: center;">++ RECEIVING CONTENT ++</p>
   <p style="text-align: center;">++ STREAM CIPHER: A1E3-7 ++</p>
@@ -229,14 +229,14 @@ document.addEventListener("DOMContentLoaded", function () {
   <p style="text-align: center;"></p>
 </div>
 
-<div class="blank-block"></div>
+<div class="blank-block"></div> -->
 
 
 <!-- <h2 style="text-align: center; margin-bottom: 5px;">++ LATEST ++</h2> -->
 
 <div class="cover-block">
   <a href="/2025/01/01/2025-welcome/">
-    <img src="/assets/img/krieg.jpg" alt="Cover Image" class="cover-image">
+    <img src="/assets/img/blanche4.png" alt="Cover Image" class="cover-image" class="greyscale-hover">
     <div class="cover-block__inner-container">
       <div class="layout-flow">
         <h2 href="/2025/01/01/2025-welcome/">Welcome!</h2>
@@ -247,7 +247,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 <div class="cover-block">
   <a href="/2025/01/01/ferrofractor-cartel-pt1/">
-    <img src="/assets/img/krieg.jpg" alt="Cover Image" class="cover-image">
+    <img src="/assets/img/krieg.jpg" alt="Cover Image" class="cover-image" class="greyscale-hover">
     <div class="cover-block__inner-container">
       <div class="layout-flow">
         <h2 href="/2025/01/01/ferrofractor-cartel-pt1/">Ferrofractor Cartel: Part 1</h2>
@@ -258,7 +258,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 <div class="cover-block">
   <a href="/2024/06/09/2025-to-do-list/">
-    <img src="/assets/img/background.jpg" alt="Cover Image" class="cover-image">
+    <img src="/assets/img/background.jpg" alt="Cover Image" class="cover-image" class="greyscale-hover">
     <div class="cover-block__inner-container">
       <div class="layout-flow">
         <h2 href="/2024/06/09/2025-to-do-list/">Placeholder: I</h2>
@@ -269,7 +269,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 <div class="cover-block">
   <a href="/2024/06/09/drukhari/">
-    <img src="/assets/img/background.jpg" alt="Cover Image" class="cover-image">
+    <img src="/assets/img/background.jpg" alt="Cover Image" class="cover-image" class="greyscale-hover">
     <div class="cover-block__inner-container">
       <div class="layout-flow">
         <h2 href="/2024/06/09/drukhari/">Drukhari: I</h2>
@@ -281,11 +281,11 @@ document.addEventListener("DOMContentLoaded", function () {
  
 <div class="blank-block"></div>
 
-<div class="featured-posts-container">
+<!-- <div class="featured-posts-container">
     
         <div class="featured-post">
           <a href="/2025/01/01/2025-welcome/">
-            <img src="/assets/img/krieg.jpg" alt="Welcome!">
+            <img src="/assets/img/blanche4.png" class="greyscale-hover" alt="Welcome!">
             <div class="overlay">
                 <div class="cover-block__inner-container">
                     <h3>Welcome!</h3>
@@ -296,7 +296,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
         <div class="featured-post">
           <a href="/2025/01/01/ferrofractor-cartel-pt1/">
-            <img src="/assets/img/krieg.jpg" alt="Ferrofractor Cartel: Part 1">
+            <img src="/assets/img/krieg.jpg" class="greyscale-hover" alt="Ferrofractor Cartel: Part 1">
             <div class="overlay">
                 <div class="cover-block__inner-container">
                     <h3>Ferrofractor Cartel: Part 1</h3>
@@ -307,7 +307,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
         <div class="featured-post">
           <a href="/2024/06/09/2025-to-do-list/">
-            <img src="/assets/img/background.jpg" alt="Placeholder: I">
+            <img src="/assets/img/background.jpg" class="greyscale-hover" alt="Placeholder: I">
             <div class="overlay">
                 <div class="cover-block__inner-container">
                     <h3>Placeholder: I</h3>
@@ -318,7 +318,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
         <div class="featured-post">
           <a href="/2024/06/09/drukhari/">
-            <img src="/assets/img/background.jpg" alt="Drukhari: I">
+            <img src="/assets/img/background.jpg" class="greyscale-hover" alt="Drukhari: I">
             <div class="overlay">
                 <div class="cover-block__inner-container">
                     <h3>Drukhari: I</h3>
@@ -327,14 +327,9 @@ document.addEventListener("DOMContentLoaded", function () {
             </div>
         </div>
     
-</div>
+</div> -->
 
-<div class="blank-block"></div>
-
-<h1 style="text-align: center; margin-bottom: 5px;">=][=</h1>
-
-<div class="blank-block"></div>
-</p>
+<h1 style="text-align: center; margin-bottom: 5px;">=][=</h1></p>
     <div style="text-align: center;">
 
     <footer>

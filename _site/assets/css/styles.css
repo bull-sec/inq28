@@ -20,7 +20,7 @@ img { width: 100%; height: auto; border-radius: 10px; }
 .layout-flow h2, .layout-flow p { margin: 10px 0; }
 
 /* Navigation Styles */
-.navbar { background-color: var(--surface-color); color: var(--on-surface-color); padding: 10px 20px; /* Increase padding to create some space */ width: 100%; /* Occupy full width */ box-sizing: border-box; /* Ensure padding is included in the width */ }
+.navbar { background-color: var(--surface-color); color: var(--on-surface-color); padding: 10px 20px; /* Increase padding to create some space */ width: 100%; /* Occupy full width */ box-sizing: border-box; /* Ensure padding is included in the width */ position: sticky; top: 0; z-index: 1000; }
 
 .navbar .container { margin: 0 auto; /* Center the container */ display: flex; justify-content: space-between; align-items: center; }
 
@@ -47,11 +47,15 @@ img { width: 100%; height: auto; border-radius: 10px; }
 /* Cover Block Styles */
 .cover-block { position: relative; display: block; width: 100%; margin-bottom: 10px; overflow: hidden; height: 250px; /* Set the height of the container to 50px */ }
 
-.cover-image { position: absolute; top: 50%; /* Position the image center vertically */ left: 50%; /* Position the image center horizontally */ width: 100%; /* Ensure the image occupies full container width */ height: 100%; /* Ensure the image occupies full container height */ object-fit: cover; /* Scale image to cover the container */ transform: translate(-50%, -50%); /* Center the image */ /* Extreme black border effect with strong gradient */ box-shadow: inset 0 0 0 100px black; /* Much thicker black border */ background-image: radial-gradient(circle, black 30%, rgba(0, 0, 0, 0) 100%); /* Strong fading gradient */ }
+.cover-image { position: absolute; top: 50%; /* Position the image center vertically */ left: 50%; /* Position the image center horizontally */ width: 100%; /* Ensure the image occupies full container width */ height: 100%; /* Ensure the image occupies full container height */ object-fit: cover; /* Scale image to cover the container */ transform: translate(-50%, -50%); /* Center the image */ transition: filter 1s ease, transform 1s ease; filter: grayscale(100%); /* Extreme black border effect with strong gradient */ box-shadow: inset 0 0 0 100px black; /* Much thicker black border */ background-image: radial-gradient(circle, black 30%, rgba(0, 0, 0, 0) 100%); /* Strong fading gradient */ }
 
 .cover-block__inner-container { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%; max-width: 1200px; /* Adjust as needed */ text-align: center; color: white; /* Text color */ background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */ overflow: hidden; /* Ensure text doesn't overflow */ text-overflow: ellipsis; /* Add ellipsis for overflow */ white-space: normal; /* Allow text to wrap */ }
 
+.cover-block img:hover { filter: grayscale(0%); }
+
 .cover-block__inner-container:hover { animation: pulse 1.5s ease-in 1 forwards; /* Pulse animation lasts for 0.5s and runs once */ }
+
+.cover-block__inner-container:hover img { transform: translate(-50%, -50%) scale(1.03); }
 
 @keyframes pulse { 0% { transform: translate(-50%, -50%) scale(1); }
   50% { transform: translate(-50%, -50%) scale(1.05); }
@@ -60,15 +64,17 @@ img { width: 100%; height: auto; border-radius: 10px; }
 /* Featured Post */
 .featured-posts-container { display: flex; flex-wrap: wrap; /* Ensure items wrap to the next line */ justify-content: space-between; }
 
-.featured-post { position: relative; flex-basis: calc(50% - 10px); /* Adjust width to fit two items per row with spacing */ margin-bottom: 10px; /* Increase spacing between rows */ margin-right: 10px; /* Add margin-right to create spacing between items */ height: 200px; /* Set the height of the container */ overflow: hidden; /* Ensure the image is cropped */ }
+.featured-post { position: relative; flex-basis: calc(50% - 10px); /* Adjust width to fit two items per row with spacing */ margin-bottom: 10px; /* Increase spacing between rows */ margin-right: 10px; /* Add margin-right to create spacing between items */ height: 350px; /* Set the height of the container */ overflow: hidden; /* Ensure the image is cropped */ }
 
-.featured-post img { position: absolute; top: 50%; /* Position the image center vertically */ left: 50%; /* Position the image center horizontally */ width: auto; /* Maintain the aspect ratio of the image */ height: auto; /* Set the image height to its original size */ transform: translate(-50%, -50%); /* Center the image */ }
+.featured-post img { position: absolute; top: 50%; /* Position the image center vertically */ left: 50%; /* Position the image center horizontally */ width: auto; /* Maintain the aspect ratio of the image */ height: auto; /* Set the image height to its original size */ transform: translate(-50%, -50%); /* Center the image */ transition: filter 1s ease, transform 1s ease; filter: grayscale(100%); }
 
 .overlay-container { position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; opacity: 0; transition: opacity 0.3s ease-in-out; z-index: 1; /* Ensure the overlay is above the image */ }
 
 .featured-post:hover .overlay-container { opacity: 1; }
 
 .overlay-content { text-align: center; color: white; /* Text color */ padding: 5px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+
+.featured-post:hover img { filter: grayscale(0%); }
 
 /* Media Queries */
 @media (max-width: 600px) { .featured-post { flex-basis: 100%; /* Change to full width on mobile */ margin-right: 0; /* Remove right margin for full-width items */ } }
@@ -186,5 +192,15 @@ img { width: 100%; height: auto; border-radius: 10px; }
 .promoted-description { font-size: 1.25rem; margin-bottom: 2rem; line-height: 1.6; }
 
 .promoted-cta { display: inline-block; font-size: 1rem; font-weight: bold; text-transform: uppercase; border-radius: 4px; text-decoration: none; transition: background-color 0.3s, color 0.3s; }
+
+.greyscale-hover { filter: grayscale(100%); transition: filter 0.3s ease; }
+
+.greyscale-hover:hover { filter: grayscale(0%); }
+
+.swiper-button-next, .swiper-button-prev { color: #9a022e !important; }
+
+.swiper-pagination-bullet-active { background-color: #9a022e !important; }
+
+.swiper-pagination-bullet { color: #808080 !important; }
 
 /*# sourceMappingURL=styles.css.map */
