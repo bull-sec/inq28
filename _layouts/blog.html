@@ -1,5 +1,8 @@
 ---
 layout: default
+title: Blog
+pagination: 
+  enabled: true
 ---
 
 
@@ -15,13 +18,27 @@ layout: default
     <!-- Main posts column -->
     <main class="blog-posts">
       {%- for post in site.posts -%}
-      <article class="post-item">
-        <h2 class="post-item-title"><a href="{{ post.url }}">{{ post.title | escape }}</a></h2>
-        <p class="post-item-excerpt">{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
+      <article class="blog-card" data-tags="{{ post.tags | join: ', ' }}">
+        <div class="blog-card-image">
+          <img src="{{ post.image }}" alt="{{ post.title }}">
+        </div>
+        <div class="blog-card-content">
+          <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+          <p>{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
+        </div>
       </article>
       {%- endfor -%}
     </main>
 
+    <div class="pagination">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}" class="prev">&laquo; Previous</a>
+      {% endif %}
+
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}" class="next">Next &raquo;</a>
+      {% endif %}
+    </div>
     <!-- Sidebar column -->
     <aside class="blog-sidebar">
       <div class="search-article">
@@ -43,3 +60,7 @@ layout: default
 
   </div>
 </div>
+
+<p class="blank-block"></p>
+<h1 style="text-align: center; margin-bottom: 5px;">{{ site.title }}</h1>
+<p class="blank-block"></p>

@@ -6,6 +6,8 @@ image: /assets/img/krieg.jpg
 tags: test featured nurgle deathguard
 author: PaintsPlastic
 published: true
+pagination:
+  enabled: true
 ---
 
 At some point last year (2024) I bought a Myphitic Blight-hauler.
